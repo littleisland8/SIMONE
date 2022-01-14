@@ -1,0 +1,25 @@
+aligndir: alignments
+outdir: results
+logdir: logs
+envsdir: workflow/envs
+data: data
+fast5_data : data/fast5
+genome: data/GRCh38_full_analysis_set_plus_decoy_hla.fa
+gff3: data/Homo_sapiens.GRCh38.105.gff3
+exclude: data/GRCh38_full_analysis_set_plus_decoy_hla.exclude.txt
+chrs: data/classic.chrs.txt
+threads: 20
+
+samples:
+    sample1G: 1G
+    sample1S: 1S
+
+aligners:
+    aligner: minimap2
+
+tools:
+    tool1: cutesv
+    tool2: sniffles 
+
+merged:
+    sample1: 1S_1G

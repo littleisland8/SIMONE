@@ -1,0 +1,37 @@
+configfile: "config/config.yaml"
+include: "rules/align.smk"
+include: "rules/depth.smk"
+include: "rules/svcall.smk"
+include: "rules/meth.smk"
+
+rule align:
+    input:
+        expand(f"alignments/{{sample}}.{{aligner}}.srt.bam.bai",sample=config["samples"].values(),aligner=config["aligners"].values())
+    
+rule depth:
+    input:
+        expand(f"alignments/{{sample}}.{{aligner}}.mosdepth.global.dist.txt", sample=config["samples"].values(),aligner=config["aligners"].values()),
+        f"alignments/cov_plot.pdf"
+
+rule svcall:
+    input:
+        expand(f"results/{{sample}}.{{aligner}}.{{tool}}.vcf", sample=config["samples"].values(),aligner=config["aligners"].values(), tool=config["tools"].values()),
+        expand(f"results/{{sample}}.{{aligner}}.{{tool}}.srt.pass.vcf", sample=config["samples"].values(),aligner=config["aligners"].values(), tool=config["tools"].values()),
+        expand(f"results/{{sample}}.{{aligner}}.hc.vcf", sample=config["samples"].values(), aligner=config["aligners"].values()),
+	expand(f"results/somatic.{{aligner}}.vcf", aligner=config["aligners"].values()),
+	expand(f"results/3X/somatic.{{aligner}}.3x.vcf", aligner=config["aligners"].values()),
+        expand(f"results/5X/somatic.{{aligner}}.5x.vcf", aligner=config["aligners"].values()),
+        expand(f"results/10X/somatic.{{aligner}}.10x.vcf", aligner=config["aligners"].values()),
+        f"results/upset.pdf",
+        f"results/3X/upset.pdf",
+        f"results/5X/upset.pdf",
+        f"results/10X/upset.pdf"
+
+rule meth:
+    input:
+        expand(f"data/{{sample}}.pass.fastq.gz.index.readdb", sample=config["samples"].values()),
+        expand(f"results/{{sample}}.methcalls.tsv", sample=config["samples"].values()),
+        directory("results/pycoMeth"),
+	expand(f"results/{{sample}}.methfreq.tsv", sample=config["samples"].values()),
+	f"results/intervals.bed",
+	expand(f"results/{{sample}}.methfreq.parsed.bed", sample=config["samples"].values())
