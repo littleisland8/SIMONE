@@ -24,6 +24,7 @@ pip install gdown
 then run:
 
 ```bash
+cd SIMONE
 mkdir -p data
 cd data
 # get GRCh38 reference (hg19 with decoys)
