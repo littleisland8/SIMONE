@@ -1,0 +1,65 @@
+{
+  "build": "h5bf99c6_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "k8",
+    "zlib >=1.2.11,<1.3.0a0",
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/minimap2-2.21-h5bf99c6_0",
+  "features": "",
+  "files": [
+    "bin/minimap2",
+    "bin/paftools.js",
+    "bin/sdust"
+  ],
+  "fn": "minimap2-2.21-h5bf99c6_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/minimap2-2.21-h5bf99c6_0",
+    "type": 1
+  },
+  "md5": "a802499ad14b066eb1c061f3ce0efb42",
+  "name": "minimap2",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/minimap2-2.21-h5bf99c6_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/minimap2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/minimap2_1625595324942/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "f613910ef10f1a6b87ddb4b0d9983a780bb2d93243a68e4fc2e6bdf614a13a77",
+        "sha256_in_prefix": "cc06d7139850e17db721ac166a92c6ccddbb488061986754d59d5d68d3e7e6c7",
+        "size_in_bytes": 1324680
+      },
+      {
+        "_path": "bin/paftools.js",
+        "path_type": "hardlink",
+        "sha256": "e267bd7e7eca9b513d81841473018b470ff55362e4e3daf7e38853e008cdfd46",
+        "sha256_in_prefix": "e267bd7e7eca9b513d81841473018b470ff55362e4e3daf7e38853e008cdfd46",
+        "size_in_bytes": 97900
+      },
+      {
+        "_path": "bin/sdust",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/minimap2_1625595324942/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "128206e221126fc0278432edcffeea30ca7bbdd845ea6fc2e66188cc18870d11",
+        "sha256_in_prefix": "be90de0ddd8df06a5e49fa6041c3ba1ee94564e89e00b21cc70b4b234d4bc362",
+        "size_in_bytes": 76720
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e87c95ccd4079d6322bdf0d6d70470d3ba962aec5841f57c0886561f9df5c02b",
+  "size": 490985,
+  "subdir": "linux-64",
+  "timestamp": 1625595559000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/minimap2-2.21-h5bf99c6_0.tar.bz2",
+  "version": "2.21"
+}

@@ -1,0 +1,69 @@
+{
+  "build": "h8cec615_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "biopython",
+    "bwa",
+    "python",
+    "minimap2",
+    "eigen",
+    "zlib >=1.2.11,<1.3.0a0",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "_openmp_mutex >=4.5",
+    "htslib >=1.12,<1.13.0a0",
+    "hdf5 >=1.10.6,<1.10.7.0a0"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/nanopolish-0.13.2-h8cec615_5",
+  "features": "",
+  "files": [
+    "bin/nanopolish",
+    "bin/nanopolish_makerange.py",
+    "bin/nanopolish_merge.py"
+  ],
+  "fn": "nanopolish-0.13.2-h8cec615_5.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/nanopolish-0.13.2-h8cec615_5",
+    "type": 1
+  },
+  "md5": "a96b22dd9266f439c0d822950c161c6f",
+  "name": "nanopolish",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/nanopolish-0.13.2-h8cec615_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nanopolish",
+        "path_type": "hardlink",
+        "sha256": "f9ad24661927094a638b80d7f2b3b493b25096e02946e7089a00acc1ab623f37",
+        "sha256_in_prefix": "f9ad24661927094a638b80d7f2b3b493b25096e02946e7089a00acc1ab623f37",
+        "size_in_bytes": 56199704
+      },
+      {
+        "_path": "bin/nanopolish_makerange.py",
+        "path_type": "hardlink",
+        "sha256": "dee97a78119a51be6904055cdb60bb8b0caf5a7bd20e29f4e027770571a7665d",
+        "sha256_in_prefix": "dee97a78119a51be6904055cdb60bb8b0caf5a7bd20e29f4e027770571a7665d",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "bin/nanopolish_merge.py",
+        "path_type": "hardlink",
+        "sha256": "dbea322c162d5c4716d5c25ef7126c44770a7e8820a5c0d2c2745f78d75298a2",
+        "sha256_in_prefix": "dbea322c162d5c4716d5c25ef7126c44770a7e8820a5c0d2c2745f78d75298a2",
+        "size_in_bytes": 3141
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "nanopolish=0.13.2",
+  "sha256": "d12c244c7085adc4e15aa9510f27bfaa22398529df2611da8075dfcdab6f5c44",
+  "size": 13749751,
+  "subdir": "linux-64",
+  "timestamp": 1627490641000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/nanopolish-0.13.2-h8cec615_5.tar.bz2",
+  "version": "0.13.2"
+}

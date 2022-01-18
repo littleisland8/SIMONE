@@ -1,0 +1,194 @@
+The flag 'directory' used in rule depth_plot is only valid for outputs, not inputs.
+The flag 'directory' used in rule meth is only valid for outputs, not inputs.
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 20
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+call_meth                 2             10             10
+meth                      1              1              1
+nanopolish_freq           2             20             20
+parse_meth_freq           2             20             20
+pycometh_CpG              2             20             20
+pycometh_Interval         2             20             20
+pycometh_Meth_Comp        1             20             20
+total                    12              1             20
+
+Select jobs to execute...
+
+[Tue Jan 18 15:31:26 2022]
+rule call_meth:
+    input: data/1S.pass.fastq.gz, data/1S.pass.fastq.gz.index.readdb, data/GRCh38_full_analysis_set_plus_decoy_hla.fa, alignments/1S.minimap2.srt.bam, alignments/1S.minimap2.srt.bam.bai
+    output: results/1S.methcalls.tsv
+    log: logs/1S_nanopolish_methylation.log
+    jobid: 6
+    wildcards: sample=1S
+    threads: 10
+    resources: tmpdir=/tmp
+
+
+[Tue Jan 18 15:31:26 2022]
+rule call_meth:
+    input: data/1G.pass.fastq.gz, data/1G.pass.fastq.gz.index.readdb, data/GRCh38_full_analysis_set_plus_decoy_hla.fa, alignments/1G.minimap2.srt.bam, alignments/1G.minimap2.srt.bam.bai
+    output: results/1G.methcalls.tsv
+    log: logs/1G_nanopolish_methylation.log
+    jobid: 3
+    wildcards: sample=1G
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:33:32 2022]
+Finished job 6.
+1 of 12 steps (8%) done
+Select jobs to execute...
+[Tue Jan 18 15:35:19 2022]
+Finished job 3.
+2 of 12 steps (17%) done
+
+[Tue Jan 18 15:35:19 2022]
+rule pycometh_CpG:
+    input: results/1S.methcalls.tsv, data/GRCh38_full_analysis_set_plus_decoy_hla.fa
+    output: results/1S.CpG.bed9, results/1S.CpG.tsv
+    log: logs/1S_pycoMeth.cpg.log
+    jobid: 13
+    wildcards: sample=1S
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:35:25 2022]
+Finished job 13.
+3 of 12 steps (25%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:35:25 2022]
+rule nanopolish_freq:
+    input: results/1G.methcalls.tsv
+    output: results/1G.methfreq.tsv
+    log: logs/1G.nanopolish_freq.log
+    jobid: 14
+    wildcards: sample=1G
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:35:34 2022]
+Finished job 14.
+4 of 12 steps (33%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:35:35 2022]
+rule pycometh_CpG:
+    input: results/1G.methcalls.tsv, data/GRCh38_full_analysis_set_plus_decoy_hla.fa
+    output: results/1G.CpG.bed9, results/1G.CpG.tsv
+    log: logs/1G_pycoMeth.cpg.log
+    jobid: 11
+    wildcards: sample=1G
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:35:46 2022]
+Finished job 11.
+5 of 12 steps (42%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:35:46 2022]
+rule pycometh_Interval:
+    input: results/1S.CpG.tsv, data/GRCh38_full_analysis_set_plus_decoy_hla.fa
+    output: results/1S.interval.bed9, results/1S.interval.tsv
+    log: logs/1S_pycoMeth.interval.log
+    jobid: 12
+    wildcards: sample=1S
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:35:51 2022]
+Finished job 12.
+6 of 12 steps (50%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:35:51 2022]
+rule nanopolish_freq:
+    input: results/1S.methcalls.tsv
+    output: results/1S.methfreq.tsv
+    log: logs/1S.nanopolish_freq.log
+    jobid: 15
+    wildcards: sample=1S
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:35:56 2022]
+Finished job 15.
+7 of 12 steps (58%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:35:56 2022]
+rule parse_meth_freq:
+    input: results/intervals.bed, results/1G.methfreq.tsv
+    output: results/1G.methfreq.parsed.bed
+    log: logs/1G.nanopolish_freq.parse.log
+    jobid: 17
+    wildcards: sample=1G
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:46:13 2022]
+Finished job 17.
+8 of 12 steps (67%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:46:13 2022]
+rule parse_meth_freq:
+    input: results/intervals.bed, results/1S.methfreq.tsv
+    output: results/1S.methfreq.parsed.bed
+    log: logs/1S.nanopolish_freq.parse.log
+    jobid: 18
+    wildcards: sample=1S
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:55:32 2022]
+Finished job 18.
+9 of 12 steps (75%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:55:32 2022]
+rule pycometh_Interval:
+    input: results/1G.CpG.tsv, data/GRCh38_full_analysis_set_plus_decoy_hla.fa
+    output: results/1G.interval.bed9, results/1G.interval.tsv
+    log: logs/1G_pycoMeth.interval.log
+    jobid: 10
+    wildcards: sample=1G
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:55:38 2022]
+Finished job 10.
+10 of 12 steps (83%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:55:38 2022]
+rule pycometh_Meth_Comp:
+    input: results/1G.interval.tsv, results/1S.interval.tsv
+    output: results/pycoMeth
+    log: logs/pycoMethcomp.log
+    jobid: 9
+    threads: 20
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:55:44 2022]
+Finished job 9.
+11 of 12 steps (92%) done
+Select jobs to execute...
+
+[Tue Jan 18 15:55:44 2022]
+localrule meth:
+    input: data/1G.pass.fastq.gz.index.readdb, data/1S.pass.fastq.gz.index.readdb, results/1G.methcalls.tsv, results/1S.methcalls.tsv, results/pycoMeth, results/1G.methfreq.tsv, results/1S.methfreq.tsv, results/intervals.bed, results/1G.methfreq.parsed.bed, results/1S.methfreq.parsed.bed
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Tue Jan 18 15:55:44 2022]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/log/2022-01-18T153126.088981.snakemake.log

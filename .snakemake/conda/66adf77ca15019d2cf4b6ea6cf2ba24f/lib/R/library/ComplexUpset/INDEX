@@ -1,0 +1,37 @@
+aes_percentage          Generate mapping for labeling percentages
+arrange_venn            Arrange points for Venn diagram
+compare_between_intersections
+                        Compare covariates between intersections
+create_upset_abc_example
+                        Create an example dataset with three sets: A, B
+                        and C
+geom_venn_circle        Circle for Venn diagram
+geom_venn_label_region
+                        Label for a region of Venn diagram
+geom_venn_label_set     Label for a set of Venn diagram
+geom_venn_region        Region of Venn diagram
+get_size_mode           Retrieve symbol for given mode that can be used
+                        in aesthetics mapping with double bang (!!)
+intersection_matrix     Prepare layers for sets sizes plot
+intersection_ratio      Barplot annotation of relative intersections
+                        sizes
+intersection_size       Barplot annotation of intersections sizes
+reverse_log_trans       Logarithmic scale for use with
+                        'upset_set_size()'
+scale_color_venn_mix    Color scale for Venn diagram
+scale_fill_venn_mix     Fill scale for Venn diagram
+upset                   Compose an UpSet plot
+upset_annotate          Annotation panel shorthand
+upset_data              Prepare data for UpSet plots
+upset_default_themes    Default themes modified by specified arguments
+upset_mode              Layer defining the intersection mode for the
+                        data to be displayed
+upset_modify_themes     Default themes modified by specified
+                        component-specific arguments
+upset_query             Highlight chosen sets or intersections
+upset_set_size          Prepare layers for sets sizes plot
+upset_stripes           Define appearence of the stripes
+upset_test              Test for differences between intersections
+upset_text_percentage   Generate percentage label of the
+                        intersection/union sizes ratio
+upset_themes            List of default themes for upset components

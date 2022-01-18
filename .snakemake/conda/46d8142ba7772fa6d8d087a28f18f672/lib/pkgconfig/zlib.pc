@@ -1,0 +1,13 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/46d8142ba7772fa6d8d087a28f18f672
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

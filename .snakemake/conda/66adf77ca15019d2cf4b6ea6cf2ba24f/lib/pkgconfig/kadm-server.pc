@@ -1,0 +1,11 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: kadm-server
+Description: Kerberos administration server library
+Version: 1.19.2
+Requires.private: kdb mit-krb5-gssapi
+Cflags: -I${includedir}
+Libs: -L${libdir} -lkadm5srv_mit

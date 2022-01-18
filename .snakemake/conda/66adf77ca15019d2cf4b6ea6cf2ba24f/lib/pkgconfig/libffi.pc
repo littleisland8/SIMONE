@@ -1,0 +1,11 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 3.2.0
+Requires: harfbuzz =  3.2.0
+Libs: -L${libdir} -lharfbuzz-subset
+Libs.private: -lm
+Cflags: -I${includedir}/harfbuzz

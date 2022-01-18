@@ -1,0 +1,3 @@
+[console_scripts]
+pycoMeth = pycoMeth.__main__:main
+

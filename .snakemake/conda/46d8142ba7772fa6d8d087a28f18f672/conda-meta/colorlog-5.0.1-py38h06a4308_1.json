@@ -1,0 +1,139 @@
+{
+  "build": "py38h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/colorlog-5.0.1-py38h06a4308_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/colorlog/__init__.py",
+    "lib/python3.8/site-packages/colorlog/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorlog/__pycache__/colorlog.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorlog/__pycache__/escape_codes.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorlog/__pycache__/logging.cpython-38.pyc",
+    "lib/python3.8/site-packages/colorlog/colorlog.py",
+    "lib/python3.8/site-packages/colorlog/escape_codes.py",
+    "lib/python3.8/site-packages/colorlog/logging.py"
+  ],
+  "fn": "colorlog-5.0.1-py38h06a4308_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/colorlog-5.0.1-py38h06a4308_1",
+    "type": 1
+  },
+  "md5": "fa68cb4042eab939a334b0a9faf37700",
+  "name": "colorlog",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/colorlog-5.0.1-py38h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "167c5eadaa76eadd6128ed8ade1b1b7a16d37d31f0705bfe7befcb5b30282385",
+        "sha256_in_prefix": "167c5eadaa76eadd6128ed8ade1b1b7a16d37d31f0705bfe7befcb5b30282385",
+        "size_in_bytes": 12466
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "7f041a54aef0f901f374a6abc47986fe0029b24a6317b22573396c63e95d391f",
+        "sha256_in_prefix": "7f041a54aef0f901f374a6abc47986fe0029b24a6317b22573396c63e95d391f",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "1e24b2f705b0ecffe7413ca158247c65455b73939b3ab1d1c8608f0a83ff8b21",
+        "sha256_in_prefix": "1e24b2f705b0ecffe7413ca158247c65455b73939b3ab1d1c8608f0a83ff8b21",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog-5.0.1-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0b336cece2f02f15216d0cc2093da8adeddbfd9cc05eeb30d2d5885fbf625a8c",
+        "sha256_in_prefix": "0b336cece2f02f15216d0cc2093da8adeddbfd9cc05eeb30d2d5885fbf625a8c",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9073b3c261da4efc1834ffdbdd5e66ff60c4bfa1833588ee74a0e33c7f7b3e78",
+        "sha256_in_prefix": "9073b3c261da4efc1834ffdbdd5e66ff60c4bfa1833588ee74a0e33c7f7b3e78",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd548448256d9b8340b5725566e8d016f5ce944c6807b22023ca94f469f76c1a",
+        "sha256_in_prefix": "cd548448256d9b8340b5725566e8d016f5ce944c6807b22023ca94f469f76c1a",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/__pycache__/colorlog.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5215a5e6d9128209c0d28803c44779c97a716f0fe8e96577bfbab877f6a9e4b1",
+        "sha256_in_prefix": "5215a5e6d9128209c0d28803c44779c97a716f0fe8e96577bfbab877f6a9e4b1",
+        "size_in_bytes": 6883
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/__pycache__/escape_codes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "069e2ee00397cbe416eea5136d4dcea37b517bacd78e9c5237703d67eaf031d4",
+        "sha256_in_prefix": "069e2ee00397cbe416eea5136d4dcea37b517bacd78e9c5237703d67eaf031d4",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/__pycache__/logging.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "370c69a32313af3d591f821d6fad2c04e8e00e43feb274a7df6d92e96fc42ffb",
+        "sha256_in_prefix": "370c69a32313af3d591f821d6fad2c04e8e00e43feb274a7df6d92e96fc42ffb",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/colorlog.py",
+        "path_type": "hardlink",
+        "sha256": "61f087b40cd8a2be819ba191513928152f15c5976d1f8016a64794bc5f973dad",
+        "sha256_in_prefix": "61f087b40cd8a2be819ba191513928152f15c5976d1f8016a64794bc5f973dad",
+        "size_in_bytes": 8228
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/escape_codes.py",
+        "path_type": "hardlink",
+        "sha256": "f8e2975295b8445459b9371be3371ad875c229a694512abbf0318a422ee3033d",
+        "sha256_in_prefix": "f8e2975295b8445459b9371be3371ad875c229a694512abbf0318a422ee3033d",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "lib/python3.8/site-packages/colorlog/logging.py",
+        "path_type": "hardlink",
+        "sha256": "a907616d8431007255df4b018909786f0698851904bbad659f030a81c7e18578",
+        "sha256_in_prefix": "a907616d8431007255df4b018909786f0698851904bbad659f030a81c7e18578",
+        "size_in_bytes": 1623
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fba0f7ff3b234eb4556828724a2a830bae003c453cc0a3623932b79469c6b544",
+  "size": 15992,
+  "subdir": "linux-64",
+  "timestamp": 1618424636000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/colorlog-5.0.1-py38h06a4308_1.conda",
+  "version": "5.0.1"
+}

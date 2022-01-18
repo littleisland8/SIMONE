@@ -1,0 +1,11 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GObject
+Description: GLib Type, Object, Parameter and Signal Library
+Version: 2.70.2
+Requires: glib-2.0
+Requires.private: libffi >=  3.0.0
+Libs: -L${libdir} -lgobject-2.0
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/8cc502dd392654925a7362b697e6ef69
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+defccname=FILE:/tmp/krb5cc_%{uid}
+defktname=FILE:/etc/krb5.keytab
+defcktname=FILE:/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/8cc502dd392654925a7362b697e6ef69/var/krb5/user/%{euid}/client.keytab
+
+Name: krb5
+Description: An implementation of Kerberos network authentication
+Version: 1.19.2
+Requires: mit-krb5

@@ -1,0 +1,11 @@
+The flag 'directory' used in rule depth_plot is only valid for outputs, not inputs.
+The flag 'directory' used in rule meth is only valid for outputs, not inputs.
+Building DAG of jobs...
+Creating conda environment workflow/envs/minimap2.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/simone/mnt/part4/keygene2/tn/SIMONE/workflow/rules/../envs/minimap2.yaml:
+Encountered problems while solving:
+  - nothing provides libgcc-ng >=9.4.0 needed by minimap2-2.22-h5bf99c6_0
+
+

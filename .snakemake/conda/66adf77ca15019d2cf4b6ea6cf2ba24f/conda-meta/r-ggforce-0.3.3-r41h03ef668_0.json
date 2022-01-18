@@ -1,0 +1,248 @@
+{
+  "build": "r41h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0",
+    "r-ggplot2 >=3.0.0",
+    "r-gtable",
+    "r-mass",
+    "r-polyclip",
+    "r-rcpp >=0.12.2",
+    "r-rcppeigen",
+    "r-rlang",
+    "r-scales",
+    "r-tidyselect",
+    "r-tweenr >=0.1.5",
+    "r-withr"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/r-ggforce-0.3.3-r41h03ef668_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ggforce/DESCRIPTION",
+    "lib/R/library/ggforce/INDEX",
+    "lib/R/library/ggforce/LICENSE",
+    "lib/R/library/ggforce/Meta/Rd.rds",
+    "lib/R/library/ggforce/Meta/features.rds",
+    "lib/R/library/ggforce/Meta/hsearch.rds",
+    "lib/R/library/ggforce/Meta/links.rds",
+    "lib/R/library/ggforce/Meta/nsInfo.rds",
+    "lib/R/library/ggforce/Meta/package.rds",
+    "lib/R/library/ggforce/NAMESPACE",
+    "lib/R/library/ggforce/NEWS.md",
+    "lib/R/library/ggforce/R/ggforce",
+    "lib/R/library/ggforce/R/ggforce.rdb",
+    "lib/R/library/ggforce/R/ggforce.rdx",
+    "lib/R/library/ggforce/help/AnIndex",
+    "lib/R/library/ggforce/help/aliases.rds",
+    "lib/R/library/ggforce/help/figures/README-example-1.png",
+    "lib/R/library/ggforce/help/figures/logo.png",
+    "lib/R/library/ggforce/help/figures/logo.svg",
+    "lib/R/library/ggforce/help/ggforce.rdb",
+    "lib/R/library/ggforce/help/ggforce.rdx",
+    "lib/R/library/ggforce/help/paths.rds",
+    "lib/R/library/ggforce/html/00Index.html",
+    "lib/R/library/ggforce/html/R.css",
+    "lib/R/library/ggforce/libs/ggforce.so"
+  ],
+  "fn": "r-ggforce-0.3.3-r41h03ef668_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/r-ggforce-0.3.3-r41h03ef668_0",
+    "type": 1
+  },
+  "md5": "2193697faf9db1ae31566a48bb87d8fc",
+  "name": "r-ggforce",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/r-ggforce-0.3.3-r41h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ggforce/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "53512a8641189912becb3eaca90545b90993d45bbceb64b96ef9d5959297aada",
+        "sha256_in_prefix": "53512a8641189912becb3eaca90545b90993d45bbceb64b96ef9d5959297aada",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "lib/R/library/ggforce/INDEX",
+        "path_type": "hardlink",
+        "sha256": "13d8f972acfd55298f89fac64da943c912cb2548e664723e9cda14acc41c6c49",
+        "sha256_in_prefix": "13d8f972acfd55298f89fac64da943c912cb2548e664723e9cda14acc41c6c49",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "lib/R/library/ggforce/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "acfb6000c35dfabf26aeb921361c0a424e39ecd0286992535485abf441e11270",
+        "sha256_in_prefix": "acfb6000c35dfabf26aeb921361c0a424e39ecd0286992535485abf441e11270",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/R/library/ggforce/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f6570d0a3903e754b225f18e77156a39b797f88f93a69e7c3e38ebb2fb3d66e0",
+        "sha256_in_prefix": "f6570d0a3903e754b225f18e77156a39b797f88f93a69e7c3e38ebb2fb3d66e0",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "lib/R/library/ggforce/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/ggforce/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "69f5254cefd497c5cf40db4260064baaec167f6cda995d7b2b8ad7f82e01db89",
+        "sha256_in_prefix": "69f5254cefd497c5cf40db4260064baaec167f6cda995d7b2b8ad7f82e01db89",
+        "size_in_bytes": 2484
+      },
+      {
+        "_path": "lib/R/library/ggforce/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "635418cc66adc3927038b0c30d16d49a755ac58885b5431d8b97a1f6a4be830e",
+        "sha256_in_prefix": "635418cc66adc3927038b0c30d16d49a755ac58885b5431d8b97a1f6a4be830e",
+        "size_in_bytes": 1445
+      },
+      {
+        "_path": "lib/R/library/ggforce/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "46bc4f8b24f01668f6f8850f49cdcdac8014cf22c534693248ea842e9baeeb98",
+        "sha256_in_prefix": "46bc4f8b24f01668f6f8850f49cdcdac8014cf22c534693248ea842e9baeeb98",
+        "size_in_bytes": 1841
+      },
+      {
+        "_path": "lib/R/library/ggforce/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "1937dee91f49b29235254e58747aa0701230f6c7ca80e093eb2ec41ea92cda5b",
+        "sha256_in_prefix": "1937dee91f49b29235254e58747aa0701230f6c7ca80e093eb2ec41ea92cda5b",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "lib/R/library/ggforce/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0db0619f8f040efecf5b0444ad2a312ecd6db8f2c265df7651287365d9cc2bcd",
+        "sha256_in_prefix": "0db0619f8f040efecf5b0444ad2a312ecd6db8f2c265df7651287365d9cc2bcd",
+        "size_in_bytes": 5873
+      },
+      {
+        "_path": "lib/R/library/ggforce/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "ed51ea04335f9c3e6c3362f7b144983a7550f183a36ba4d4bc5bf0e2084c659d",
+        "sha256_in_prefix": "ed51ea04335f9c3e6c3362f7b144983a7550f183a36ba4d4bc5bf0e2084c659d",
+        "size_in_bytes": 5563
+      },
+      {
+        "_path": "lib/R/library/ggforce/R/ggforce",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/ggforce/R/ggforce.rdb",
+        "path_type": "hardlink",
+        "sha256": "726cd5b6e57faa0aa5272db7a00c43ebb1870715b85050916bdaafaec78f2908",
+        "sha256_in_prefix": "726cd5b6e57faa0aa5272db7a00c43ebb1870715b85050916bdaafaec78f2908",
+        "size_in_bytes": 783251
+      },
+      {
+        "_path": "lib/R/library/ggforce/R/ggforce.rdx",
+        "path_type": "hardlink",
+        "sha256": "e3affd42b6b9427493c26c3f4aa7e83ff0f333cd60dfa744c0724646a0f420f0",
+        "sha256_in_prefix": "e3affd42b6b9427493c26c3f4aa7e83ff0f333cd60dfa744c0724646a0f420f0",
+        "size_in_bytes": 4763
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "aaafd73d363712268acca47895d9675e36db251adfbf7d2a36a27fc4d847f06a",
+        "sha256_in_prefix": "aaafd73d363712268acca47895d9675e36db251adfbf7d2a36a27fc4d847f06a",
+        "size_in_bytes": 4654
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "546d4cdaf6838edd53a631b4d65b9cf18deb6b8c5890e13d7c8f6642b9c95457",
+        "sha256_in_prefix": "546d4cdaf6838edd53a631b4d65b9cf18deb6b8c5890e13d7c8f6642b9c95457",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/figures/README-example-1.png",
+        "path_type": "hardlink",
+        "sha256": "113f5870795aab325b2d7b54ec65932c0de6149f1bc8552e1f80db14cb300fde",
+        "sha256_in_prefix": "113f5870795aab325b2d7b54ec65932c0de6149f1bc8552e1f80db14cb300fde",
+        "size_in_bytes": 51884
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "11736f07d4597452388a84acd5c081e5b71c644d7f97a950857e500213049afe",
+        "sha256_in_prefix": "11736f07d4597452388a84acd5c081e5b71c644d7f97a950857e500213049afe",
+        "size_in_bytes": 93585
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/figures/logo.svg",
+        "path_type": "hardlink",
+        "sha256": "7af38cd6e636377abb21fb93222973342b79b73c369d5f2b14bd3be27c79ee3f",
+        "sha256_in_prefix": "7af38cd6e636377abb21fb93222973342b79b73c369d5f2b14bd3be27c79ee3f",
+        "size_in_bytes": 777398
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/ggforce.rdb",
+        "path_type": "hardlink",
+        "sha256": "b4d886470ed6035a63d62c69bc8a7a814b2025ca897ae8fefc91b6018d1d8202",
+        "sha256_in_prefix": "b4d886470ed6035a63d62c69bc8a7a814b2025ca897ae8fefc91b6018d1d8202",
+        "size_in_bytes": 220605
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/ggforce.rdx",
+        "path_type": "hardlink",
+        "sha256": "c545c1a114e56cc1a7bc38e8458d90b48a4a77b65e4d00c1d5f02dabbfc6dfd6",
+        "sha256_in_prefix": "c545c1a114e56cc1a7bc38e8458d90b48a4a77b65e4d00c1d5f02dabbfc6dfd6",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "lib/R/library/ggforce/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7500844e28cc45f9097f356dd2c45d2e49b1f1b5dea325f9915a6884efe57f9d",
+        "sha256_in_prefix": "7500844e28cc45f9097f356dd2c45d2e49b1f1b5dea325f9915a6884efe57f9d",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/ggforce/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "694fcd2adb74796901f6edee722368e2988e5ee927bf80eac31e53cf69202111",
+        "sha256_in_prefix": "694fcd2adb74796901f6edee722368e2988e5ee927bf80eac31e53cf69202111",
+        "size_in_bytes": 21898
+      },
+      {
+        "_path": "lib/R/library/ggforce/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/ggforce/libs/ggforce.so",
+        "path_type": "hardlink",
+        "sha256": "cac0e48f7842bcfbdf29f57cb8667e58c9fe52e8775a1f5d1f3c32b87b06c284",
+        "sha256_in_prefix": "cac0e48f7842bcfbdf29f57cb8667e58c9fe52e8775a1f5d1f3c32b87b06c284",
+        "size_in_bytes": 369144
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-ggforce",
+  "sha256": "b124638e39496c9a9413b3908eee97d0d8defca9e4f411f10cd19d70898c89a2",
+  "size": 1977671,
+  "subdir": "linux-64",
+  "timestamp": 1622060882000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ggforce-0.3.3-r41h03ef668_0.tar.bz2",
+  "version": "0.3.3"
+}

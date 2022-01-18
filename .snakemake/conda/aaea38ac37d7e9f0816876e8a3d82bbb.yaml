@@ -1,0 +1,4 @@
+channels:
+ - aleg
+dependencies:
+ - pycometh=0.4.25

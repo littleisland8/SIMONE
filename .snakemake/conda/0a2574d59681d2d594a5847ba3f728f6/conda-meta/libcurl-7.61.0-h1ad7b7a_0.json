@@ -1,0 +1,166 @@
+{
+  "build": "h1ad7b7a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "openssl >=1.0.2o,<1.0.3a",
+    "libssh2 >=1.8.0,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/libcurl-7.61.0-h1ad7b7a_0",
+  "features": "",
+  "files": [
+    "bin/curl-config",
+    "include/curl/curl.h",
+    "include/curl/curlver.h",
+    "include/curl/easy.h",
+    "include/curl/mprintf.h",
+    "include/curl/multi.h",
+    "include/curl/stdcheaders.h",
+    "include/curl/system.h",
+    "include/curl/typecheck-gcc.h",
+    "lib/libcurl.a",
+    "lib/libcurl.la",
+    "lib/libcurl.so",
+    "lib/libcurl.so.4",
+    "lib/libcurl.so.4.5.0",
+    "lib/pkgconfig/libcurl.pc"
+  ],
+  "fn": "libcurl-7.61.0-h1ad7b7a_0.conda",
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/libcurl-7.61.0-h1ad7b7a_0",
+    "type": 1
+  },
+  "md5": "dbf41fdfc3a69f29c726f31115f5cb15",
+  "name": "libcurl",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/libcurl-7.61.0-h1ad7b7a_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "62c6086259fd2f6592da992c9704aca167d6879d8962c7c29f9ba1042f8f01a3",
+        "sha256_in_prefix": "671cafc359b7fb69067184ff60bdedb504f00a3ec9df4d15c19b62be9ab66b47",
+        "size_in_bytes": 6413
+      },
+      {
+        "_path": "include/curl/curl.h",
+        "path_type": "hardlink",
+        "sha256": "433913b804caa01da3bc8e1272dfd8098646aa652b9e6e094f6d4230a959b6bf",
+        "sha256_in_prefix": "433913b804caa01da3bc8e1272dfd8098646aa652b9e6e094f6d4230a959b6bf",
+        "size_in_bytes": 104159
+      },
+      {
+        "_path": "include/curl/curlver.h",
+        "path_type": "hardlink",
+        "sha256": "58fa431d53143e9354501d0eb340fc569fe1826e76b0b705eefc803ef6e01a68",
+        "sha256_in_prefix": "58fa431d53143e9354501d0eb340fc569fe1826e76b0b705eefc803ef6e01a68",
+        "size_in_bytes": 3034
+      },
+      {
+        "_path": "include/curl/easy.h",
+        "path_type": "hardlink",
+        "sha256": "58b2142e4bd3287e53b98cc0f4f8a23dd9ba502db4aae08dea51ff00823a5824",
+        "sha256_in_prefix": "58b2142e4bd3287e53b98cc0f4f8a23dd9ba502db4aae08dea51ff00823a5824",
+        "size_in_bytes": 3473
+      },
+      {
+        "_path": "include/curl/mprintf.h",
+        "path_type": "hardlink",
+        "sha256": "61e8e3918f879fe4cf63992bd108eb08dfb2568fa907ec528d8ed3ac02ba0c56",
+        "sha256_in_prefix": "61e8e3918f879fe4cf63992bd108eb08dfb2568fa907ec528d8ed3ac02ba0c56",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "include/curl/multi.h",
+        "path_type": "hardlink",
+        "sha256": "e2e68e6c37d69abbf281a545bc8a6a0cdc867b34f9e254e3cc1f5e710ef32955",
+        "sha256_in_prefix": "e2e68e6c37d69abbf281a545bc8a6a0cdc867b34f9e254e3cc1f5e710ef32955",
+        "size_in_bytes": 16211
+      },
+      {
+        "_path": "include/curl/stdcheaders.h",
+        "path_type": "hardlink",
+        "sha256": "78eb917e7082bf7ce255840c3af5fadd927b7eb5a62305c54b36c7da852cbfd4",
+        "sha256_in_prefix": "78eb917e7082bf7ce255840c3af5fadd927b7eb5a62305c54b36c7da852cbfd4",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "include/curl/system.h",
+        "path_type": "hardlink",
+        "sha256": "ee304919d1c7fadb5c895cf8d53a9d2121e0c24e1b2f932e873cf664e534fa5f",
+        "sha256_in_prefix": "ee304919d1c7fadb5c895cf8d53a9d2121e0c24e1b2f932e873cf664e534fa5f",
+        "size_in_bytes": 18488
+      },
+      {
+        "_path": "include/curl/typecheck-gcc.h",
+        "path_type": "hardlink",
+        "sha256": "90d081e26400e85411fc55c022b1d8e9ddf794be6d0947cf632ae2b8cc2e8bf5",
+        "sha256_in_prefix": "90d081e26400e85411fc55c022b1d8e9ddf794be6d0947cf632ae2b8cc2e8bf5",
+        "size_in_bytes": 43214
+      },
+      {
+        "_path": "lib/libcurl.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/curl_split_recipe_1532525404874/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e0e3d1c14ad7ca32004f2eb36fcd7b6a784b35c764e5b9d52bb3339a7287b193",
+        "sha256_in_prefix": "0165e97bc34632b7bace072663d85394bb44639ddfa1f7fd208882668365ef63",
+        "size_in_bytes": 1011572
+      },
+      {
+        "_path": "lib/libcurl.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "46a27c75b42d76d67de96cf6a7b42f2e7111ee12e0542f9bd06df9d75bb46576",
+        "sha256_in_prefix": "c125fc62a2379e399093928cfcaf1d62621ebde37de3148e8ef327185970b2c1",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "lib/libcurl.so",
+        "path_type": "softlink",
+        "sha256": "4c8e943f3a351d068a4c2c4d1c4e1e071d4c21820b3652218a4d5aebf0b47d0f",
+        "size_in_bytes": 536152
+      },
+      {
+        "_path": "lib/libcurl.so.4",
+        "path_type": "softlink",
+        "sha256": "4c8e943f3a351d068a4c2c4d1c4e1e071d4c21820b3652218a4d5aebf0b47d0f",
+        "size_in_bytes": 536152
+      },
+      {
+        "_path": "lib/libcurl.so.4.5.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/curl_split_recipe_1532525404874/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4c8e943f3a351d068a4c2c4d1c4e1e071d4c21820b3652218a4d5aebf0b47d0f",
+        "sha256_in_prefix": "c5d155bdab6253b7e3b06a0024af348f29c117dcb53eb48287596730c376d1a0",
+        "size_in_bytes": 536152
+      },
+      {
+        "_path": "lib/pkgconfig/libcurl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c6447a6670a0e452d8ea7434db16bc81fbefba6086fa86a02381c0b82cd04dd8",
+        "sha256_in_prefix": "2024958cb7fd6c6d52ad3bc8dd3209ab530ca294a49946a3594a1eacbd596b6d",
+        "size_in_bytes": 1657
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "30627b1a9e0f703addcaf671ff03f294a36b21871a505329e7daaccc0818e7f2",
+  "size": 363143,
+  "subdir": "linux-64",
+  "timestamp": 1532525678000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libcurl-7.61.0-h1ad7b7a_0.conda",
+  "version": "7.61.0"
+}

@@ -1,0 +1,10 @@
+channels:
+ - conda-forge
+ - r
+ - bioconda
+dependencies:
+ - r-base
+ - r-ggplot2
+ - r-data.table
+ - r-ggforce
+ - r-complexupset 

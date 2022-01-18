@@ -1,0 +1,286 @@
+The flag 'directory' used in rule depth_plot is only valid for outputs, not inputs.
+The flag 'directory' used in rule meth is only valid for outputs, not inputs.
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 20
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+clean_cutesv          2             20             20
+clean_sniffles        2             20             20
+cuteSV_call           2             20             20
+make_upset            1             20             20
+make_upset_10X        1             20             20
+make_upset_3X         1             20             20
+make_upset_5X         1             20             20
+plot_upset            1             20             20
+plot_upset_10X        1             20             20
+plot_upset_3X         1             20             20
+plot_upset_5X         1             20             20
+sniffles_call         2             20             20
+sv_10X                1             20             20
+sv_3X                 1             20             20
+sv_5X                 1             20             20
+sv_merge_hc           1             20             20
+svcall                1              1              1
+total                21              1             20
+
+Select jobs to execute...
+
+[Mon Jan 17 12:30:06 2022]
+rule sniffles_call:
+    input: alignments/1S.minimap2.srt.bam, alignments/1S.minimap2.srt.bam.bai
+    output: results/1S.minimap2.sniffles.vcf
+    log: logs/1S.minimap2.sniffles.log
+    jobid: 8
+    wildcards: sample=1S, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f58279ce6e02e2f81825a233e2f12458
+[Mon Jan 17 12:30:14 2022]
+Finished job 8.
+1 of 21 steps (5%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:30:14 2022]
+rule clean_sniffles:
+    input: data/GRCh38_full_analysis_set_plus_decoy_hla.exclude.txt, results/1S.minimap2.sniffles.vcf
+    output: results/1S.minimap2.sniffles.srt.pass.vcf
+    log: logs/1S.minimap2.sniffles_srt_log
+    jobid: 12
+    wildcards: sample=1S, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f58279ce6e02e2f81825a233e2f12458
+[Mon Jan 17 12:30:22 2022]
+Finished job 12.
+2 of 21 steps (10%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:30:22 2022]
+rule sniffles_call:
+    input: alignments/1G.minimap2.srt.bam, alignments/1G.minimap2.srt.bam.bai
+    output: results/1G.minimap2.sniffles.vcf
+    log: logs/1G.minimap2.sniffles.log
+    jobid: 4
+    wildcards: sample=1G, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f58279ce6e02e2f81825a233e2f12458
+[Mon Jan 17 12:30:34 2022]
+Finished job 4.
+3 of 21 steps (14%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:30:34 2022]
+rule clean_sniffles:
+    input: data/GRCh38_full_analysis_set_plus_decoy_hla.exclude.txt, results/1G.minimap2.sniffles.vcf
+    output: results/1G.minimap2.sniffles.srt.pass.vcf
+    log: logs/1G.minimap2.sniffles_srt_log
+    jobid: 10
+    wildcards: sample=1G, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f58279ce6e02e2f81825a233e2f12458
+[Mon Jan 17 12:30:42 2022]
+Finished job 10.
+4 of 21 steps (19%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:30:42 2022]
+rule cuteSV_call:
+    input: data/GRCh38_full_analysis_set_plus_decoy_hla.fa, alignments/1S.minimap2.srt.bam, alignments/1S.minimap2.srt.bam.bai
+    output: results/1S.minimap2.cutesv.vcf
+    log: logs/1S.minimap2.cutesv.log
+    jobid: 5
+    wildcards: sample=1S, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/0a2574d59681d2d594a5847ba3f728f6
+[Mon Jan 17 12:31:05 2022]
+Finished job 5.
+5 of 21 steps (24%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:05 2022]
+rule cuteSV_call:
+    input: data/GRCh38_full_analysis_set_plus_decoy_hla.fa, alignments/1G.minimap2.srt.bam, alignments/1G.minimap2.srt.bam.bai
+    output: results/1G.minimap2.cutesv.vcf
+    log: logs/1G.minimap2.cutesv.log
+    jobid: 1
+    wildcards: sample=1G, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/0a2574d59681d2d594a5847ba3f728f6
+[Mon Jan 17 12:31:28 2022]
+Finished job 1.
+6 of 21 steps (29%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:28 2022]
+rule clean_cutesv:
+    input: data/GRCh38_full_analysis_set_plus_decoy_hla.exclude.txt, results/1S.minimap2.cutesv.vcf
+    output: results/1S.minimap2.cutesv.srt.pass.vcf
+    log: logs/1S.minimap2.cutesv_srt_log
+    jobid: 11
+    wildcards: sample=1S, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/0a2574d59681d2d594a5847ba3f728f6
+[Mon Jan 17 12:31:37 2022]
+Finished job 11.
+7 of 21 steps (33%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:37 2022]
+rule clean_cutesv:
+    input: data/GRCh38_full_analysis_set_plus_decoy_hla.exclude.txt, results/1G.minimap2.cutesv.vcf
+    output: results/1G.minimap2.cutesv.srt.pass.vcf
+    log: logs/1G.minimap2.cutesv_srt_log
+    jobid: 9
+    wildcards: sample=1G, aligner=minimap2
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/0a2574d59681d2d594a5847ba3f728f6
+[Mon Jan 17 12:31:45 2022]
+Finished job 9.
+8 of 21 steps (38%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:45 2022]
+rule sv_merge_hc:
+    input: results/1G.minimap2.cutesv.srt.pass.vcf, results/1G.minimap2.sniffles.srt.pass.vcf, results/1S.minimap2.cutesv.srt.pass.vcf, results/1S.minimap2.sniffles.srt.pass.vcf
+    output: results/somatic.minimap2.vcf, results/1G.minimap2.hc.vcf, results/1S.minimap2.hc.vcf
+    log: logs/log.hc.log
+    jobid: 13
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+[Mon Jan 17 12:31:45 2022]
+Finished job 13.
+9 of 21 steps (43%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:45 2022]
+rule sv_3X:
+    input: results/1G.minimap2.hc.vcf, results/1S.minimap2.hc.vcf
+    output: results/3X/somatic.minimap2.3x.vcf
+    log: logs/log.hc.3x.log
+    jobid: 14
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+[Mon Jan 17 12:31:46 2022]
+Finished job 14.
+10 of 21 steps (48%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:46 2022]
+rule sv_5X:
+    input: results/1G.minimap2.hc.vcf, results/1S.minimap2.hc.vcf
+    output: results/5X/somatic.minimap2.5x.vcf
+    log: logs/log.hc.5x.log
+    jobid: 15
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+[Mon Jan 17 12:31:46 2022]
+Finished job 15.
+11 of 21 steps (52%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:46 2022]
+rule make_upset:
+    input: results/somatic.minimap2.vcf
+    output: results/upset.tsv
+    log: logs/upset.log
+    jobid: 18
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+[Mon Jan 17 12:31:46 2022]
+Finished job 18.
+12 of 21 steps (57%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:46 2022]
+rule plot_upset:
+    input: results/upset.tsv
+    output: results/upset.pdf
+    log: logs/upset_plot.log
+    jobid: 17
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+[Mon Jan 17 12:31:49 2022]
+Finished job 17.
+13 of 21 steps (62%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:49 2022]
+rule sv_10X:
+    input: results/1G.minimap2.hc.vcf, results/1S.minimap2.hc.vcf
+    output: results/10X/somatic.minimap2.10x.vcf
+    log: logs/log.hc.10x.log
+    jobid: 16
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+[Mon Jan 17 12:31:49 2022]
+Finished job 16.
+14 of 21 steps (67%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:49 2022]
+rule make_upset_10X:
+    input: results/10X/somatic.minimap2.10x.vcf
+    output: results/10X/upset.tsv
+    log: logs/upset.10x.log
+    jobid: 24
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+[Mon Jan 17 12:31:49 2022]
+Finished job 24.
+15 of 21 steps (71%) done
+Select jobs to execute...
+
+[Mon Jan 17 12:31:49 2022]
+rule plot_upset_10X:
+    input: results/10X/upset.tsv
+    output: results/10X/upset.pdf
+    log: logs/upset_plot.10x.log
+    jobid: 23
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+[Mon Jan 17 12:31:52 2022]
+Error in rule plot_upset_10X:
+    jobid: 23
+    output: results/10X/upset.pdf
+    log: logs/upset_plot.10x.log (check log file(s) for error message)
+    conda-env: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+    shell:
+        Rscript workflow/scripts/upset.R results/10X/upset.tsv results/10X/upset.pdf
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/log/2022-01-17T123005.906944.snakemake.log

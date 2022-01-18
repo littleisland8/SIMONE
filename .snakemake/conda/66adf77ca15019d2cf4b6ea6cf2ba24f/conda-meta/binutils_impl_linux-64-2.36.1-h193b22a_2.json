@@ -1,0 +1,2129 @@
+{
+  "build": "h193b22a_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "ld_impl_linux-64 2.36.1 hea4e1c9_2",
+    "sysroot_linux-64"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/binutils_impl_linux-64-2.36.1-h193b22a_2",
+  "features": "",
+  "files": [
+    "bin/x86_64-conda-linux-gnu-addr2line",
+    "bin/x86_64-conda-linux-gnu-ar",
+    "bin/x86_64-conda-linux-gnu-as",
+    "bin/x86_64-conda-linux-gnu-c++filt",
+    "bin/x86_64-conda-linux-gnu-dwp",
+    "bin/x86_64-conda-linux-gnu-elfedit",
+    "bin/x86_64-conda-linux-gnu-gprof",
+    "bin/x86_64-conda-linux-gnu-ld.bfd",
+    "bin/x86_64-conda-linux-gnu-ld.gold",
+    "bin/x86_64-conda-linux-gnu-nm",
+    "bin/x86_64-conda-linux-gnu-objcopy",
+    "bin/x86_64-conda-linux-gnu-objdump",
+    "bin/x86_64-conda-linux-gnu-ranlib",
+    "bin/x86_64-conda-linux-gnu-readelf",
+    "bin/x86_64-conda-linux-gnu-size",
+    "bin/x86_64-conda-linux-gnu-strings",
+    "bin/x86_64-conda-linux-gnu-strip",
+    "bin/x86_64-conda_cos6-linux-gnu-addr2line",
+    "bin/x86_64-conda_cos6-linux-gnu-ar",
+    "bin/x86_64-conda_cos6-linux-gnu-as",
+    "bin/x86_64-conda_cos6-linux-gnu-c++filt",
+    "bin/x86_64-conda_cos6-linux-gnu-dwp",
+    "bin/x86_64-conda_cos6-linux-gnu-elfedit",
+    "bin/x86_64-conda_cos6-linux-gnu-gprof",
+    "bin/x86_64-conda_cos6-linux-gnu-ld.bfd",
+    "bin/x86_64-conda_cos6-linux-gnu-ld.gold",
+    "bin/x86_64-conda_cos6-linux-gnu-nm",
+    "bin/x86_64-conda_cos6-linux-gnu-objcopy",
+    "bin/x86_64-conda_cos6-linux-gnu-objdump",
+    "bin/x86_64-conda_cos6-linux-gnu-ranlib",
+    "bin/x86_64-conda_cos6-linux-gnu-readelf",
+    "bin/x86_64-conda_cos6-linux-gnu-size",
+    "bin/x86_64-conda_cos6-linux-gnu-strings",
+    "bin/x86_64-conda_cos6-linux-gnu-strip",
+    "include/ansidecl.h",
+    "include/bfd.h",
+    "include/bfd_stdint.h",
+    "include/bfdlink.h",
+    "include/ctf-api.h",
+    "include/ctf.h",
+    "include/diagnostics.h",
+    "include/dis-asm.h",
+    "include/plugin-api.h",
+    "include/symcat.h",
+    "lib/bfd-plugins/libdep.so",
+    "lib/ldscripts/elf32_x86_64.x",
+    "lib/ldscripts/elf32_x86_64.xbn",
+    "lib/ldscripts/elf32_x86_64.xc",
+    "lib/ldscripts/elf32_x86_64.xce",
+    "lib/ldscripts/elf32_x86_64.xd",
+    "lib/ldscripts/elf32_x86_64.xdc",
+    "lib/ldscripts/elf32_x86_64.xdce",
+    "lib/ldscripts/elf32_x86_64.xde",
+    "lib/ldscripts/elf32_x86_64.xdw",
+    "lib/ldscripts/elf32_x86_64.xdwe",
+    "lib/ldscripts/elf32_x86_64.xe",
+    "lib/ldscripts/elf32_x86_64.xn",
+    "lib/ldscripts/elf32_x86_64.xr",
+    "lib/ldscripts/elf32_x86_64.xs",
+    "lib/ldscripts/elf32_x86_64.xsc",
+    "lib/ldscripts/elf32_x86_64.xsce",
+    "lib/ldscripts/elf32_x86_64.xse",
+    "lib/ldscripts/elf32_x86_64.xsw",
+    "lib/ldscripts/elf32_x86_64.xswe",
+    "lib/ldscripts/elf32_x86_64.xu",
+    "lib/ldscripts/elf32_x86_64.xw",
+    "lib/ldscripts/elf32_x86_64.xwe",
+    "lib/ldscripts/elf_i386.x",
+    "lib/ldscripts/elf_i386.xbn",
+    "lib/ldscripts/elf_i386.xc",
+    "lib/ldscripts/elf_i386.xce",
+    "lib/ldscripts/elf_i386.xd",
+    "lib/ldscripts/elf_i386.xdc",
+    "lib/ldscripts/elf_i386.xdce",
+    "lib/ldscripts/elf_i386.xde",
+    "lib/ldscripts/elf_i386.xdw",
+    "lib/ldscripts/elf_i386.xdwe",
+    "lib/ldscripts/elf_i386.xe",
+    "lib/ldscripts/elf_i386.xn",
+    "lib/ldscripts/elf_i386.xr",
+    "lib/ldscripts/elf_i386.xs",
+    "lib/ldscripts/elf_i386.xsc",
+    "lib/ldscripts/elf_i386.xsce",
+    "lib/ldscripts/elf_i386.xse",
+    "lib/ldscripts/elf_i386.xsw",
+    "lib/ldscripts/elf_i386.xswe",
+    "lib/ldscripts/elf_i386.xu",
+    "lib/ldscripts/elf_i386.xw",
+    "lib/ldscripts/elf_i386.xwe",
+    "lib/ldscripts/elf_iamcu.x",
+    "lib/ldscripts/elf_iamcu.xbn",
+    "lib/ldscripts/elf_iamcu.xc",
+    "lib/ldscripts/elf_iamcu.xce",
+    "lib/ldscripts/elf_iamcu.xd",
+    "lib/ldscripts/elf_iamcu.xdc",
+    "lib/ldscripts/elf_iamcu.xdce",
+    "lib/ldscripts/elf_iamcu.xde",
+    "lib/ldscripts/elf_iamcu.xdw",
+    "lib/ldscripts/elf_iamcu.xdwe",
+    "lib/ldscripts/elf_iamcu.xe",
+    "lib/ldscripts/elf_iamcu.xn",
+    "lib/ldscripts/elf_iamcu.xr",
+    "lib/ldscripts/elf_iamcu.xs",
+    "lib/ldscripts/elf_iamcu.xsc",
+    "lib/ldscripts/elf_iamcu.xsce",
+    "lib/ldscripts/elf_iamcu.xse",
+    "lib/ldscripts/elf_iamcu.xsw",
+    "lib/ldscripts/elf_iamcu.xswe",
+    "lib/ldscripts/elf_iamcu.xu",
+    "lib/ldscripts/elf_iamcu.xw",
+    "lib/ldscripts/elf_iamcu.xwe",
+    "lib/ldscripts/elf_k1om.x",
+    "lib/ldscripts/elf_k1om.xbn",
+    "lib/ldscripts/elf_k1om.xc",
+    "lib/ldscripts/elf_k1om.xce",
+    "lib/ldscripts/elf_k1om.xd",
+    "lib/ldscripts/elf_k1om.xdc",
+    "lib/ldscripts/elf_k1om.xdce",
+    "lib/ldscripts/elf_k1om.xde",
+    "lib/ldscripts/elf_k1om.xdw",
+    "lib/ldscripts/elf_k1om.xdwe",
+    "lib/ldscripts/elf_k1om.xe",
+    "lib/ldscripts/elf_k1om.xn",
+    "lib/ldscripts/elf_k1om.xr",
+    "lib/ldscripts/elf_k1om.xs",
+    "lib/ldscripts/elf_k1om.xsc",
+    "lib/ldscripts/elf_k1om.xsce",
+    "lib/ldscripts/elf_k1om.xse",
+    "lib/ldscripts/elf_k1om.xsw",
+    "lib/ldscripts/elf_k1om.xswe",
+    "lib/ldscripts/elf_k1om.xu",
+    "lib/ldscripts/elf_k1om.xw",
+    "lib/ldscripts/elf_k1om.xwe",
+    "lib/ldscripts/elf_l1om.x",
+    "lib/ldscripts/elf_l1om.xbn",
+    "lib/ldscripts/elf_l1om.xc",
+    "lib/ldscripts/elf_l1om.xce",
+    "lib/ldscripts/elf_l1om.xd",
+    "lib/ldscripts/elf_l1om.xdc",
+    "lib/ldscripts/elf_l1om.xdce",
+    "lib/ldscripts/elf_l1om.xde",
+    "lib/ldscripts/elf_l1om.xdw",
+    "lib/ldscripts/elf_l1om.xdwe",
+    "lib/ldscripts/elf_l1om.xe",
+    "lib/ldscripts/elf_l1om.xn",
+    "lib/ldscripts/elf_l1om.xr",
+    "lib/ldscripts/elf_l1om.xs",
+    "lib/ldscripts/elf_l1om.xsc",
+    "lib/ldscripts/elf_l1om.xsce",
+    "lib/ldscripts/elf_l1om.xse",
+    "lib/ldscripts/elf_l1om.xsw",
+    "lib/ldscripts/elf_l1om.xswe",
+    "lib/ldscripts/elf_l1om.xu",
+    "lib/ldscripts/elf_l1om.xw",
+    "lib/ldscripts/elf_l1om.xwe",
+    "lib/ldscripts/elf_x86_64.x",
+    "lib/ldscripts/elf_x86_64.xbn",
+    "lib/ldscripts/elf_x86_64.xc",
+    "lib/ldscripts/elf_x86_64.xce",
+    "lib/ldscripts/elf_x86_64.xd",
+    "lib/ldscripts/elf_x86_64.xdc",
+    "lib/ldscripts/elf_x86_64.xdce",
+    "lib/ldscripts/elf_x86_64.xde",
+    "lib/ldscripts/elf_x86_64.xdw",
+    "lib/ldscripts/elf_x86_64.xdwe",
+    "lib/ldscripts/elf_x86_64.xe",
+    "lib/ldscripts/elf_x86_64.xn",
+    "lib/ldscripts/elf_x86_64.xr",
+    "lib/ldscripts/elf_x86_64.xs",
+    "lib/ldscripts/elf_x86_64.xsc",
+    "lib/ldscripts/elf_x86_64.xsce",
+    "lib/ldscripts/elf_x86_64.xse",
+    "lib/ldscripts/elf_x86_64.xsw",
+    "lib/ldscripts/elf_x86_64.xswe",
+    "lib/ldscripts/elf_x86_64.xu",
+    "lib/ldscripts/elf_x86_64.xw",
+    "lib/ldscripts/elf_x86_64.xwe",
+    "lib/libbfd.a",
+    "lib/libctf-nobfd.a",
+    "lib/libctf.a",
+    "lib/libopcodes.a",
+    "share/info/as.info",
+    "share/info/bfd.info",
+    "share/info/binutils.info",
+    "share/info/gprof.info",
+    "share/info/ld.info",
+    "share/man/man1/addr2line.1",
+    "share/man/man1/ar.1",
+    "share/man/man1/as.1",
+    "share/man/man1/c++filt.1",
+    "share/man/man1/dlltool.1",
+    "share/man/man1/elfedit.1",
+    "share/man/man1/gprof.1",
+    "share/man/man1/ld.1",
+    "share/man/man1/nm.1",
+    "share/man/man1/objcopy.1",
+    "share/man/man1/objdump.1",
+    "share/man/man1/ranlib.1",
+    "share/man/man1/readelf.1",
+    "share/man/man1/size.1",
+    "share/man/man1/strings.1",
+    "share/man/man1/strip.1",
+    "share/man/man1/windmc.1",
+    "share/man/man1/windres.1",
+    "x86_64-conda-linux-gnu/bin/addr2line",
+    "x86_64-conda-linux-gnu/bin/ar",
+    "x86_64-conda-linux-gnu/bin/as",
+    "x86_64-conda-linux-gnu/bin/c++filt",
+    "x86_64-conda-linux-gnu/bin/dwp",
+    "x86_64-conda-linux-gnu/bin/elfedit",
+    "x86_64-conda-linux-gnu/bin/gprof",
+    "x86_64-conda-linux-gnu/bin/ld.bfd",
+    "x86_64-conda-linux-gnu/bin/ld.gold",
+    "x86_64-conda-linux-gnu/bin/nm",
+    "x86_64-conda-linux-gnu/bin/objcopy",
+    "x86_64-conda-linux-gnu/bin/objdump",
+    "x86_64-conda-linux-gnu/bin/ranlib",
+    "x86_64-conda-linux-gnu/bin/readelf",
+    "x86_64-conda-linux-gnu/bin/size",
+    "x86_64-conda-linux-gnu/bin/strings",
+    "x86_64-conda-linux-gnu/bin/strip",
+    "x86_64-conda_cos6-linux-gnu/bin/addr2line",
+    "x86_64-conda_cos6-linux-gnu/bin/ar",
+    "x86_64-conda_cos6-linux-gnu/bin/as",
+    "x86_64-conda_cos6-linux-gnu/bin/c++filt",
+    "x86_64-conda_cos6-linux-gnu/bin/dwp",
+    "x86_64-conda_cos6-linux-gnu/bin/elfedit",
+    "x86_64-conda_cos6-linux-gnu/bin/gprof",
+    "x86_64-conda_cos6-linux-gnu/bin/ld.bfd",
+    "x86_64-conda_cos6-linux-gnu/bin/ld.gold",
+    "x86_64-conda_cos6-linux-gnu/bin/nm",
+    "x86_64-conda_cos6-linux-gnu/bin/objcopy",
+    "x86_64-conda_cos6-linux-gnu/bin/objdump",
+    "x86_64-conda_cos6-linux-gnu/bin/ranlib",
+    "x86_64-conda_cos6-linux-gnu/bin/readelf",
+    "x86_64-conda_cos6-linux-gnu/bin/size",
+    "x86_64-conda_cos6-linux-gnu/bin/strings",
+    "x86_64-conda_cos6-linux-gnu/bin/strip"
+  ],
+  "fn": "binutils_impl_linux-64-2.36.1-h193b22a_2.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/binutils_impl_linux-64-2.36.1-h193b22a_2",
+    "type": 1
+  },
+  "md5": "32aae4265554a47ea77f7c09f86aeb3b",
+  "name": "binutils_impl_linux-64",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/binutils_impl_linux-64-2.36.1-h193b22a_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-addr2line",
+        "path_type": "hardlink",
+        "sha256": "a3488920360d2c98bb0703910b1bbd9ec7051a268366a7de2016ad90cb3eee94",
+        "sha256_in_prefix": "a3488920360d2c98bb0703910b1bbd9ec7051a268366a7de2016ad90cb3eee94",
+        "size_in_bytes": 1052760
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-ar",
+        "path_type": "hardlink",
+        "sha256": "ea3c1ee8a75292ff95c7831f39a5523cd3ddf6b5828f9bff9098fab17891fa38",
+        "sha256_in_prefix": "ea3c1ee8a75292ff95c7831f39a5523cd3ddf6b5828f9bff9098fab17891fa38",
+        "size_in_bytes": 1085336
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-as",
+        "path_type": "hardlink",
+        "sha256": "02b046bdd1919dbbda875bf54011487f2ec6390f162b678cdbb274f5eb159a27",
+        "sha256_in_prefix": "02b046bdd1919dbbda875bf54011487f2ec6390f162b678cdbb274f5eb159a27",
+        "size_in_bytes": 1698472
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-c++filt",
+        "path_type": "hardlink",
+        "sha256": "4aa22f6b0f24db4118062221efd1c9947b9b4af4a639f765e70ba9d08b3dddd8",
+        "sha256_in_prefix": "4aa22f6b0f24db4118062221efd1c9947b9b4af4a639f765e70ba9d08b3dddd8",
+        "size_in_bytes": 1052184
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-dwp",
+        "path_type": "hardlink",
+        "sha256": "9f6699fec91db7bd1ce54aae705ae36687877a1c130a5fec64b287ffd5339ef1",
+        "sha256_in_prefix": "9f6699fec91db7bd1ce54aae705ae36687877a1c130a5fec64b287ffd5339ef1",
+        "size_in_bytes": 2546000
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-elfedit",
+        "path_type": "hardlink",
+        "sha256": "4e41df52f19e6ce6f0da1b8114fd90115f27ae740015fd9bfeb598a1f29c2514",
+        "sha256_in_prefix": "4e41df52f19e6ce6f0da1b8114fd90115f27ae740015fd9bfeb598a1f29c2514",
+        "size_in_bytes": 32968
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-gprof",
+        "path_type": "hardlink",
+        "sha256": "5981adc7ebdc71373498a256ff25d5ff34ae00ef9d4ae829a37c3168115b3abd",
+        "sha256_in_prefix": "5981adc7ebdc71373498a256ff25d5ff34ae00ef9d4ae829a37c3168115b3abd",
+        "size_in_bytes": 1114520
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-ld.bfd",
+        "path_type": "hardlink",
+        "sha256": "818635e7abfb0cb20f2db5b87fe1c42beafc0a5e155a25e087606fd2e9a9f7b1",
+        "sha256_in_prefix": "818635e7abfb0cb20f2db5b87fe1c42beafc0a5e155a25e087606fd2e9a9f7b1",
+        "size_in_bytes": 2742376
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-ld.gold",
+        "path_type": "hardlink",
+        "sha256": "d34a19428c2e4828167e793a048fc89cbb3267a01877b88cfb3d2a0a1da893d8",
+        "sha256_in_prefix": "d34a19428c2e4828167e793a048fc89cbb3267a01877b88cfb3d2a0a1da893d8",
+        "size_in_bytes": 4978800
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-nm",
+        "path_type": "hardlink",
+        "sha256": "7f68881440d66a93b8771a73c17830ec0b0681c84d66bae879eed5703dcd438f",
+        "sha256_in_prefix": "7f68881440d66a93b8771a73c17830ec0b0681c84d66bae879eed5703dcd438f",
+        "size_in_bytes": 1065712
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-objcopy",
+        "path_type": "hardlink",
+        "sha256": "1c34522d7284d0e208ea1714c5952c1a968bed0fc74762f440fa2155572ecee5",
+        "sha256_in_prefix": "1c34522d7284d0e208ea1714c5952c1a968bed0fc74762f440fa2155572ecee5",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-objdump",
+        "path_type": "hardlink",
+        "sha256": "782f13f81c45c397ee79f5a0eec9c0708773c6de4f2a8f0b65dbe7e3e319fb52",
+        "sha256_in_prefix": "782f13f81c45c397ee79f5a0eec9c0708773c6de4f2a8f0b65dbe7e3e319fb52",
+        "size_in_bytes": 2205296
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-ranlib",
+        "path_type": "hardlink",
+        "sha256": "17c993076db1bc9311589c573bbcd9d3dc8ed6083720c1aeaacb84052195ea6e",
+        "sha256_in_prefix": "17c993076db1bc9311589c573bbcd9d3dc8ed6083720c1aeaacb84052195ea6e",
+        "size_in_bytes": 1085368
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-readelf",
+        "path_type": "hardlink",
+        "sha256": "d7ddf503c5f6bcf5b48b83374037978403b5fc3e762a9b64c705534116a51000",
+        "sha256_in_prefix": "d7ddf503c5f6bcf5b48b83374037978403b5fc3e762a9b64c705534116a51000",
+        "size_in_bytes": 877176
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-size",
+        "path_type": "hardlink",
+        "sha256": "5f9a9470f958c04d81603470a9e78a9e5f62fd6c353cd709e2284d767cac84ac",
+        "sha256_in_prefix": "5f9a9470f958c04d81603470a9e78a9e5f62fd6c353cd709e2284d767cac84ac",
+        "size_in_bytes": 1053808
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-strings",
+        "path_type": "hardlink",
+        "sha256": "2b85cb7cb8871addabb4b127312d5c924ffaad0de99236c3290fd97a6a28e87f",
+        "sha256_in_prefix": "2b85cb7cb8871addabb4b127312d5c924ffaad0de99236c3290fd97a6a28e87f",
+        "size_in_bytes": 1053144
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-strip",
+        "path_type": "hardlink",
+        "sha256": "29665e7500422d6e0ac224550f329ce36727374fe58d316ceca28d257f2a1bb0",
+        "sha256_in_prefix": "29665e7500422d6e0ac224550f329ce36727374fe58d316ceca28d257f2a1bb0",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-addr2line",
+        "path_type": "softlink",
+        "sha256": "a3488920360d2c98bb0703910b1bbd9ec7051a268366a7de2016ad90cb3eee94",
+        "size_in_bytes": 1052760
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-ar",
+        "path_type": "softlink",
+        "sha256": "ea3c1ee8a75292ff95c7831f39a5523cd3ddf6b5828f9bff9098fab17891fa38",
+        "size_in_bytes": 1085336
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-as",
+        "path_type": "softlink",
+        "sha256": "02b046bdd1919dbbda875bf54011487f2ec6390f162b678cdbb274f5eb159a27",
+        "size_in_bytes": 1698472
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-c++filt",
+        "path_type": "softlink",
+        "sha256": "4aa22f6b0f24db4118062221efd1c9947b9b4af4a639f765e70ba9d08b3dddd8",
+        "size_in_bytes": 1052184
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-dwp",
+        "path_type": "softlink",
+        "sha256": "9f6699fec91db7bd1ce54aae705ae36687877a1c130a5fec64b287ffd5339ef1",
+        "size_in_bytes": 2546000
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-elfedit",
+        "path_type": "softlink",
+        "sha256": "4e41df52f19e6ce6f0da1b8114fd90115f27ae740015fd9bfeb598a1f29c2514",
+        "size_in_bytes": 32968
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-gprof",
+        "path_type": "softlink",
+        "sha256": "5981adc7ebdc71373498a256ff25d5ff34ae00ef9d4ae829a37c3168115b3abd",
+        "size_in_bytes": 1114520
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-ld.bfd",
+        "path_type": "softlink",
+        "sha256": "818635e7abfb0cb20f2db5b87fe1c42beafc0a5e155a25e087606fd2e9a9f7b1",
+        "size_in_bytes": 2742376
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-ld.gold",
+        "path_type": "softlink",
+        "sha256": "d34a19428c2e4828167e793a048fc89cbb3267a01877b88cfb3d2a0a1da893d8",
+        "size_in_bytes": 4978800
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-nm",
+        "path_type": "softlink",
+        "sha256": "7f68881440d66a93b8771a73c17830ec0b0681c84d66bae879eed5703dcd438f",
+        "size_in_bytes": 1065712
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-objcopy",
+        "path_type": "softlink",
+        "sha256": "1c34522d7284d0e208ea1714c5952c1a968bed0fc74762f440fa2155572ecee5",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-objdump",
+        "path_type": "softlink",
+        "sha256": "782f13f81c45c397ee79f5a0eec9c0708773c6de4f2a8f0b65dbe7e3e319fb52",
+        "size_in_bytes": 2205296
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-ranlib",
+        "path_type": "softlink",
+        "sha256": "17c993076db1bc9311589c573bbcd9d3dc8ed6083720c1aeaacb84052195ea6e",
+        "size_in_bytes": 1085368
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-readelf",
+        "path_type": "softlink",
+        "sha256": "d7ddf503c5f6bcf5b48b83374037978403b5fc3e762a9b64c705534116a51000",
+        "size_in_bytes": 877176
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-size",
+        "path_type": "softlink",
+        "sha256": "5f9a9470f958c04d81603470a9e78a9e5f62fd6c353cd709e2284d767cac84ac",
+        "size_in_bytes": 1053808
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-strings",
+        "path_type": "softlink",
+        "sha256": "2b85cb7cb8871addabb4b127312d5c924ffaad0de99236c3290fd97a6a28e87f",
+        "size_in_bytes": 1053144
+      },
+      {
+        "_path": "bin/x86_64-conda_cos6-linux-gnu-strip",
+        "path_type": "softlink",
+        "sha256": "29665e7500422d6e0ac224550f329ce36727374fe58d316ceca28d257f2a1bb0",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "include/ansidecl.h",
+        "path_type": "hardlink",
+        "sha256": "4e9b6d7a0cb0d268d268d8286fb43f913da09a63258a4de810950aafd08f729a",
+        "sha256_in_prefix": "4e9b6d7a0cb0d268d268d8286fb43f913da09a63258a4de810950aafd08f729a",
+        "size_in_bytes": 14130
+      },
+      {
+        "_path": "include/bfd.h",
+        "path_type": "hardlink",
+        "sha256": "6aebf60eb4b0ad55fedd8e83de7dde4bccea73630549ac6a6aae7a11d1913324",
+        "sha256_in_prefix": "6aebf60eb4b0ad55fedd8e83de7dde4bccea73630549ac6a6aae7a11d1913324",
+        "size_in_bytes": 257850
+      },
+      {
+        "_path": "include/bfd_stdint.h",
+        "path_type": "hardlink",
+        "sha256": "bb55f784f99797f3a5ad5293b9aaa3d3b6150ea0fbb8c014ff9584691ad93292",
+        "sha256_in_prefix": "bb55f784f99797f3a5ad5293b9aaa3d3b6150ea0fbb8c014ff9584691ad93292",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "include/bfdlink.h",
+        "path_type": "hardlink",
+        "sha256": "68bc38bbd8883726d3b4b26fe5bbf5b84ae59fb6d39304bcca7e2044fa758c9d",
+        "sha256_in_prefix": "68bc38bbd8883726d3b4b26fe5bbf5b84ae59fb6d39304bcca7e2044fa758c9d",
+        "size_in_bytes": 36884
+      },
+      {
+        "_path": "include/ctf-api.h",
+        "path_type": "hardlink",
+        "sha256": "64cc0395291d0f7446ec3a7d325c55f29c7ef7b310f3fa95b28d8a8d8d6ea203",
+        "sha256_in_prefix": "64cc0395291d0f7446ec3a7d325c55f29c7ef7b310f3fa95b28d8a8d8d6ea203",
+        "size_in_bytes": 24463
+      },
+      {
+        "_path": "include/ctf.h",
+        "path_type": "hardlink",
+        "sha256": "de5df2bfef1a9350696ab1465bc489de5964462858f3b3b7c0d165d118992f96",
+        "sha256_in_prefix": "de5df2bfef1a9350696ab1465bc489de5964462858f3b3b7c0d165d118992f96",
+        "size_in_bytes": 26086
+      },
+      {
+        "_path": "include/diagnostics.h",
+        "path_type": "hardlink",
+        "sha256": "a92c7d29c0df4ad62753ce7e37ec5231c572934eb5bd5a75a5f87012011f8cf3",
+        "sha256_in_prefix": "a92c7d29c0df4ad62753ce7e37ec5231c572934eb5bd5a75a5f87012011f8cf3",
+        "size_in_bytes": 3446
+      },
+      {
+        "_path": "include/dis-asm.h",
+        "path_type": "hardlink",
+        "sha256": "56377bc9b831652c48acefb1adf0bf7eda40014d0a44dc10d506e8d55aa9eb09",
+        "sha256_in_prefix": "56377bc9b831652c48acefb1adf0bf7eda40014d0a44dc10d506e8d55aa9eb09",
+        "size_in_bytes": 16687
+      },
+      {
+        "_path": "include/plugin-api.h",
+        "path_type": "hardlink",
+        "sha256": "f7fa3bca815b4b9b592c1f708b6e6bb14c8677e965c192f63e2fd710eec6bb2c",
+        "sha256_in_prefix": "f7fa3bca815b4b9b592c1f708b6e6bb14c8677e965c192f63e2fd710eec6bb2c",
+        "size_in_bytes": 17251
+      },
+      {
+        "_path": "include/symcat.h",
+        "path_type": "hardlink",
+        "sha256": "40a28b811736e2bb9c8f26a9e212ff1ba8849804ae33cd32d5cb63414602fa11",
+        "sha256_in_prefix": "40a28b811736e2bb9c8f26a9e212ff1ba8849804ae33cd32d5cb63414602fa11",
+        "size_in_bytes": 2191
+      },
+      {
+        "_path": "lib/bfd-plugins/libdep.so",
+        "path_type": "hardlink",
+        "sha256": "227ef6dbad84c9bfa44c0ea000dce28d2655da69c9635d9110911db49ed12a53",
+        "sha256_in_prefix": "227ef6dbad84c9bfa44c0ea000dce28d2655da69c9635d9110911db49ed12a53",
+        "size_in_bytes": 7464
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.x",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3357bce91090eca1a798beea2a41a4526f6c06bbb2e130c0b1c3f946afbf08f5",
+        "sha256_in_prefix": "4eec0bd7ccc5f6f5cb721d06b00628d18dc68455b7164e0c84aacea9fb37c3c6",
+        "size_in_bytes": 10623
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xbn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3c4fd9d563a1023e236705340eb1d25e64e8a012b498a9aacc0db965c2145dd4",
+        "sha256_in_prefix": "19a17f5a639f148612d08df9e6f59a4e57cb770561637bcabc1d7820c3e6cd5e",
+        "size_in_bytes": 10426
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a8051421a457cac53259baa8730b53c7d9d90085668800854de2d20bf975b4b1",
+        "sha256_in_prefix": "9fd2377bd9f290d8aa75374a27d7a02dab3d558f095d7a6fb30e282caff17fd6",
+        "size_in_bytes": 10269
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8066eff881c27669165f348b60f532eabd1c787a56cb70895d85d1a932bc6f84",
+        "sha256_in_prefix": "ff3d23497c5e08be409e27395c17e283beffd91062bafc03d428cef16cfcbbf7",
+        "size_in_bytes": 10549
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xd",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "863a6912aa5372ef1725f8b50a060715d6c7d0e9e9cfa35d495187fa440ae440",
+        "sha256_in_prefix": "2e5424f774e7769ab36e1092869d6d8503db05264886ba18f99540c3990d7f52",
+        "size_in_bytes": 10489
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xdc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "244a1ba1a98929f460f25c87dd8f2761ae094e63cbab24062202b70cbecc6325",
+        "sha256_in_prefix": "8df3e612f9573c95370763c62ef1fbafca56754bc6b8794b6d1e79d5a83a86e1",
+        "size_in_bytes": 10170
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xdce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "6fbffef34e9689111407599bfd1136e94044b99fc697703abed72381a0362722",
+        "sha256_in_prefix": "158d97b4a50ba252a0fef36e7db0b3f9d7c9650a2e5482ee946cdf04a913f0f6",
+        "size_in_bytes": 10450
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xde",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "49b38281284b29a7bd272031c620194ec43711bcabda620d0f1b33ccc9a0330f",
+        "sha256_in_prefix": "9d98fa254ffc812a8c3aea70f1cd72b2c4a7f185a6202dbe1fbdd511b00c6110",
+        "size_in_bytes": 10769
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xdw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "69b627d250a07a7e3ce2a966ef335684dc53cce46a63f3bcba3640e3f5c79049",
+        "sha256_in_prefix": "c5f3ca3908df497cf27fdaebbc2f92661c350e60347e5bacf3e3ede036e944b8",
+        "size_in_bytes": 10131
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xdwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "de896fc7fd06fab7aaf582a26317a2d8da2394efd05d3f7731f1e467e635076d",
+        "sha256_in_prefix": "36580493bd243e914a7f2680abb56d9046a8eed110171edaa93895ce7327a3e4",
+        "size_in_bytes": 10411
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "60f3d276215c3e8969f2b3e2c7e345462ebe468bb7c9d3b2469c81c241eb04db",
+        "sha256_in_prefix": "0c7bda550e859c4c816d488fd3fa460b9f52664d194611a021644c2670994ca5",
+        "size_in_bytes": 10868
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "24993791d96b3dd4de7c4dd1d8dfd5f2f9e1bc0d2c402573d5d69150cf246b68",
+        "sha256_in_prefix": "b37fe47a9699fee9e0a7c7cae631098c4ccbf49483759b3b3564b5c6f659ff77",
+        "size_in_bytes": 10591
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xr",
+        "path_type": "hardlink",
+        "sha256": "db34f9601610329a9d4d3aeaba21647a2da3ddfb9ad2e00075be3229925abdd4",
+        "sha256_in_prefix": "db34f9601610329a9d4d3aeaba21647a2da3ddfb9ad2e00075be3229925abdd4",
+        "size_in_bytes": 5031
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4fb288c9d4021924d7601ebcb225e27910453b248701be9f8c87a708e0a41f9f",
+        "sha256_in_prefix": "9aed9a809683380a233bf7a9978639b8f71fd95da7f3ac264385a198b5004158",
+        "size_in_bytes": 10111
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xsc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c8e9c78552ca0a05cc12bedd8314f95e2f7f970c87a1c28163567135bfd39858",
+        "sha256_in_prefix": "d0396c5a9470e00bbd6792be5c7a6220cd7a44f49c5e032c016a9a387691704a",
+        "size_in_bytes": 9792
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xsce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8aae44493de935a3ba75372eb99b73cb7e6fce99bb10db8486dd9fa3d8aebd97",
+        "sha256_in_prefix": "c157799403403d20cc18e51b2d447419b59a65c5f924989bf559e99e85ce0316",
+        "size_in_bytes": 10072
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d8359134ccef4bf8aa882db02c42dd80b9aaa733d475e21deff569dbd6cc6e0b",
+        "sha256_in_prefix": "84a5d72ec40773da66f85e0ad11823589f9d9b6bcbc4bd512dea06e6bc8eb27c",
+        "size_in_bytes": 10391
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xsw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e65e6e4172d16f22e33574d7f02fede231d5dc2e870102fab3ce74ae311a5f94",
+        "sha256_in_prefix": "cdd0bb14b7ad8c5ff8a5a26fee8ceecb0f7df2106c1a25e9433120ac7977e3fd",
+        "size_in_bytes": 9753
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xswe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f5c2aa2472811756f0cf4a721329162ee4359a1e4f6e9bf02f285ce8444a1a01",
+        "sha256_in_prefix": "079dafd0b9ad0875844cc8d8c9328589a56316bc6e227ca14e3de1d384567f5f",
+        "size_in_bytes": 10033
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xu",
+        "path_type": "hardlink",
+        "sha256": "df38694b5f827c3350cb111f00963301e310c6a495060b535604b1d7bf0f377c",
+        "sha256_in_prefix": "df38694b5f827c3350cb111f00963301e310c6a495060b535604b1d7bf0f377c",
+        "size_in_bytes": 5055
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "cd4ac2229419415d028787d2cf029150e15b038875401a51576088119017b857",
+        "sha256_in_prefix": "1b00ff72ad4821d5eedff1a2b27ff540e0a71cc8d99ac33bf1f568610c9ce6ce",
+        "size_in_bytes": 10230
+      },
+      {
+        "_path": "lib/ldscripts/elf32_x86_64.xwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e420d03a4548baa6aa76fda80050eadc97cac083b45c22dcd6aae8f9fbcb47a4",
+        "sha256_in_prefix": "2321955506a818228ce5539b6a94f2197bf018376ff630d76645f62da005af42",
+        "size_in_bytes": 10510
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.x",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c3947b0bb2bc55c3ab02d60396376f0cec90d0904dd8e31791ea0cd016347be2",
+        "sha256_in_prefix": "347a6cb3fafe4ac44b1f65144f6c6e189864f216b2013e8bf8be9c938c0e9d39",
+        "size_in_bytes": 10243
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xbn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9c2af19f0c8037d4abed70b2ccc1b4bb981606068bec841cb56861fab0f723c0",
+        "sha256_in_prefix": "9093675a28a34cccaadcc0650f455325e1a3674f60b4d5b208f6c7e828db1abf",
+        "size_in_bytes": 10046
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3061c1ce95e3d039983150424920c1d202719370fbcf6363b6eaf3bd4573d320",
+        "sha256_in_prefix": "03d987d4c493579fb7c318cd167e4e8098c888dab95a78cfd74ed120a0c6854f",
+        "size_in_bytes": 10023
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "59a9d576254ec21ed1e41b2c81a7c4552fef318c70de8243a0d5de38f43e8f6d",
+        "sha256_in_prefix": "421e2411678946aa5d5796c546494bbb7c316e2766f10b284e43eef3b9d293c3",
+        "size_in_bytes": 10303
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xd",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "42d8872906c75c1388d67bac4b71f36e91292628f2623b6bbd72f46e34afd154",
+        "sha256_in_prefix": "f3fd952c121a7dc3f4e4eb645c99e3ed8195aff8f691ba05c26a2023ccf632b7",
+        "size_in_bytes": 10107
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xdc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0eabb06101b2591c378b78ef52e0a6f4ac26f64509630102adc3f7c1b23683d9",
+        "sha256_in_prefix": "73aee753a6694bbcb2ee19dc0e1cdb04061cd7c29b44a350a383a7550d560281",
+        "size_in_bytes": 9922
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xdce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e5ecc526298bdb045087d67fdc28c8c3345797aa574cd218c5eee8aa9b4dd45e",
+        "sha256_in_prefix": "70c30cb36a44688dcca838664fca86bda40fd45af1b330690370069e9903125d",
+        "size_in_bytes": 10202
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xde",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a6d74e9a847b9e8473af81c0bba7862f4a5f67e97313d8ca54fe5a336c316a7b",
+        "sha256_in_prefix": "55ad94ab95595c9fe4441c6387734a6568e6891f515d422830e25d015fba52ea",
+        "size_in_bytes": 10387
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xdw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b88049d7367f0293f946601c4393ec0684ed92f10d7a260832d4308202879a14",
+        "sha256_in_prefix": "df937c59315cffab3ff2a15767626cbf8525a9f25441b1137bb673281a4db798",
+        "size_in_bytes": 9883
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xdwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e5d3ed8f2486fba4178aef99c08ef944edae7209cc0f7209027712245237d53d",
+        "sha256_in_prefix": "93d9af17767fff3de6a16a9c85eb886deabbd38a275d973099c35c66cf96b8fc",
+        "size_in_bytes": 10163
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b318fe19c72d560f8641befafb69375ce4c275737b9325455a6810d1bed64916",
+        "sha256_in_prefix": "c1d854e93cec9e5339d43d5adce541ca2dd50acb4818678b8efffb280601bc73",
+        "size_in_bytes": 10488
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "96e6d82c19845a49e36a0dcd8e46d171d74eca482dbdaa8ebb6dd193f381d461",
+        "sha256_in_prefix": "80fef3d7708cda62d3494d13efb6dbb9f3b61fdba5c90f3028f451d1c23f88b1",
+        "size_in_bytes": 10211
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xr",
+        "path_type": "hardlink",
+        "sha256": "c281d48e3d3b1abd1ec255a53e6b668a1365eb1ba8c309701b2afec519576538",
+        "sha256_in_prefix": "c281d48e3d3b1abd1ec255a53e6b668a1365eb1ba8c309701b2afec519576538",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c7fc2b665849555224e9f952208e91e32e2fd883938efcd11ff157be0002089f",
+        "sha256_in_prefix": "b20fd8e7341d83a98ef5cca570ffa3f14b934465fb9edf0613609a445e2afeea",
+        "size_in_bytes": 9729
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xsc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "648b7f9887dc3a2a390ac302335ec34614eb8745761a6f9ac38a3312617e8f8a",
+        "sha256_in_prefix": "c06fc94cdf9bb24ed95937df5d4f1e2f6857baa2e69bea47ba998a70a5d5c305",
+        "size_in_bytes": 9544
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xsce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "70a26a3c0b8e6a1cee8511faf94f4a18e486f50c0e3c14ffa50312b9df96ab7a",
+        "sha256_in_prefix": "17db9957b1074d96cf8f45006b0a9cf8f474d9326dec678af3dde886d53295ef",
+        "size_in_bytes": 9824
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "bbe37521cee48a6522090ec28e93a5d96d6c95706747ebd2a9eae05b46d7a394",
+        "sha256_in_prefix": "60b5f36ee18457aae18abe74af395825589c84305d889252431479b2032d67a7",
+        "size_in_bytes": 10009
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xsw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "fab75b3982f56733fd203418863c80969b19dff8a6a96b4e8f2abdab5308f911",
+        "sha256_in_prefix": "9579ce39d39ac7f82e5fe3bb87742242cd87b4bf55e832c16311ef4c51437ea4",
+        "size_in_bytes": 9505
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xswe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c73525f616e80794f6dad083bbeb7071d73d6ad9c7667e23743bf16f537668d1",
+        "sha256_in_prefix": "0c4eb63b668a955cac9ca30252da0cb0f463b18744b4df7e02de0bab107ac72f",
+        "size_in_bytes": 9785
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xu",
+        "path_type": "hardlink",
+        "sha256": "f4ea9e33696e92f346b4a0c97ca6aa52b102b03097a1f19768b48d7bc1b82832",
+        "sha256_in_prefix": "f4ea9e33696e92f346b4a0c97ca6aa52b102b03097a1f19768b48d7bc1b82832",
+        "size_in_bytes": 4798
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "66d0461dab74ad7cae88a549d1679512e899c46f10df2456e9cd1a5bdfb5c64e",
+        "sha256_in_prefix": "a2287fb719e439c0167bce4d22384c15a7f70efe9440b6e4b707ee6cbcdb2c08",
+        "size_in_bytes": 9984
+      },
+      {
+        "_path": "lib/ldscripts/elf_i386.xwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "dd22a6fb298e4cdb86caedec75da65aa7ee64d84b23288c2f1f7f18ace5aaa98",
+        "sha256_in_prefix": "1ddedcd38519b23a45f4d56b5f8758114b8b66dad6050f281f1f7b1765931a33",
+        "size_in_bytes": 10264
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.x",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ae0991f3d1076768fa78a65aed413c4fb6d9c0b9fc39c6a956468c9bb43a4887",
+        "sha256_in_prefix": "673f9949ceb62ccdb8c24e4fc3a57630caa40cbdccf355daaef2ca803ee35a9d",
+        "size_in_bytes": 8901
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xbn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "be9b40d9e93aa532498c69757e9d9d236ddd79adf0abdba7efb3d848b7f66f03",
+        "sha256_in_prefix": "5857d9639211950c58d408352ccafbe367d652c2289ab337bb8108ee7ce6a131",
+        "size_in_bytes": 8704
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8764a98b153a0b3dfd06f6bc16709d3595cf24ebde9c6611c574b868682def80",
+        "sha256_in_prefix": "7f0ab6c426109999322314a75f593d29c2bbfeabd0dc46fb8b947d5ad4fdf668",
+        "size_in_bytes": 8681
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c778b9c4ec4ef7026e551a5c7582c2f85954455c4a4e71d1fb8f1d40b53d3120",
+        "sha256_in_prefix": "a54c20ce4d64493358eee577c54619dee3f1bc79db5036018d57ab0dbf0dc7f9",
+        "size_in_bytes": 8961
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xd",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "317c5574ab400234eb409780defab6aecd71cb24b9f7e31f398581af99aa9975",
+        "sha256_in_prefix": "1092289f2fa159e2ff3f62a298d11fa064d8f83f23d4472cd0e445719133fe88",
+        "size_in_bytes": 8765
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xdc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c68be9674c40caeaaab3f344bcccd133fa8d687c9790f54e561c747734a645bd",
+        "sha256_in_prefix": "eaca8412eab3c83626142f857abbe34a97c1b17b213b3b13acf02600999b3a6c",
+        "size_in_bytes": 8580
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xdce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b59301df76152e6f3ab9e7730d708dab5060ec3accd4e90699bebcf8313f209c",
+        "sha256_in_prefix": "07318c9fc80a76fd5e78c439bef89b93fd3e80897e8b5892b3a2e68ec593c8c0",
+        "size_in_bytes": 8860
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xde",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e16a94435ad470cf82cc069089ba9f954ae8756a841c355b5267f611eb668fdf",
+        "sha256_in_prefix": "846ba1dafc1e7195dc2247befea9d6397e4915c5f03e964927ab9f4c92726d8f",
+        "size_in_bytes": 9045
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xdw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "69cb2b8d7156c2996986386872aa5aa02ff9084c17946a1de9e199096e4f8abb",
+        "sha256_in_prefix": "417cb95c5e83814e59f0d0498890d795c44c8b0802b1db0be0d48ed7d23193b2",
+        "size_in_bytes": 8541
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xdwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f61ac7c366979cd5af953ce59404c679fb63b6ac28ec095167f4bbe7ec324427",
+        "sha256_in_prefix": "51add9f51c71e18f38b072ac80772eb5d6fc8ce5af13bc71225aea73b628f897",
+        "size_in_bytes": 8821
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5233250f0f858a629c8ef862de67aa84b417a73e608a8a0131109927e18b2749",
+        "sha256_in_prefix": "3e5033a072b852b64dba5748ba2c55a0cc1ffc223581cd47dd556e3114709f1f",
+        "size_in_bytes": 9146
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9ff773b9625bdafab753fabf673bb89e59368d2d3519d507ac8dfd796486e36e",
+        "sha256_in_prefix": "d2cc4aae12dbf3732d5f11aa7dafb7862c43af1a12c003b6b33d9324f45165cd",
+        "size_in_bytes": 8869
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xr",
+        "path_type": "hardlink",
+        "sha256": "753f9cc5522a9205ac0fb5053e070eec02946f9d3081adf6d20b1093ab0ae877",
+        "sha256_in_prefix": "753f9cc5522a9205ac0fb5053e070eec02946f9d3081adf6d20b1093ab0ae877",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "abbec3c2c43da5294cb396e12ee1f518e86db814441d72bb35514a618d12d757",
+        "sha256_in_prefix": "4b4f5ee62bd297b30efb7b75b19e6d4887bf856d52552058dde02146124f0df7",
+        "size_in_bytes": 8387
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xsc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "bbaba8cc377b1e80abd4ad572fdb3dd0e2b4ed70ea9f2a3f7f9c136bf2b35825",
+        "sha256_in_prefix": "b590c46837aa80f129a4315c0a789cc7f5023f33da0fdb98ceeab59cd4bfe0d7",
+        "size_in_bytes": 8202
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xsce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "bfa4fcce728a6dee6c27a6b71257fe9e0e0d7852e242841fa66307fb90d8b368",
+        "sha256_in_prefix": "fd0d276b1d9db3f248a94eaaa77cd9001e48ac937c55fe21634676864465e9b9",
+        "size_in_bytes": 8482
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9137a8e0a949f1136d73eb81d544a3572d00de54a43a9fa2f2720c785edca65f",
+        "sha256_in_prefix": "12428264db8dbef2e88d1e43b70c0848547e5ab1e8fbdb8be5a4a7f73ef009e4",
+        "size_in_bytes": 8667
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xsw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "540abac45b1ccbb5b984bc999e2ec8836a40bfe6f4400a059fd49ccd10e2686e",
+        "sha256_in_prefix": "bc57f13184e03acd710e6835011367be55b9c1e65c80acc388b87e5267f6b8b6",
+        "size_in_bytes": 8163
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xswe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "25012d18c7f9a4d17993b730f9d85ec8c89953705c845e95e92d47fe7caff7b9",
+        "sha256_in_prefix": "251b3b5260e6ed990fd09316a2fbf85bb783687cdb5908a718a8a224c00babf1",
+        "size_in_bytes": 8443
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xu",
+        "path_type": "hardlink",
+        "sha256": "80ebdbc3b23c695f06122eb29dcf98ec131a6a95194f96f89731d31bc1ea9ae2",
+        "sha256_in_prefix": "80ebdbc3b23c695f06122eb29dcf98ec131a6a95194f96f89731d31bc1ea9ae2",
+        "size_in_bytes": 4768
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "475018b64d2050580e2c1fc1bd959ff3dd5971b79d02ac57441b06ff22b7b889",
+        "sha256_in_prefix": "9f090356c97efca305cee645c0f6ef88f3ff0c462a05a3686265937d90e3cd6b",
+        "size_in_bytes": 8642
+      },
+      {
+        "_path": "lib/ldscripts/elf_iamcu.xwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "24e79a3995d8903bf7022d1169e344aca135d81dd28a59336dda1d453c77aeb4",
+        "sha256_in_prefix": "7e9dc591fe77412b2d8226ccca2e5065bafad0947d927ff763bee10dcaed4be4",
+        "size_in_bytes": 8922
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.x",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d414f7855c0c696667328bb55329db66e4ab5bd6870d249682c4ff26423f4acf",
+        "sha256_in_prefix": "50a7e0bc0f20eb90ee7c6eb09564b6ec2a4ecd3998c0f7ecb51824371f304907",
+        "size_in_bytes": 9875
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xbn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2e01bc030bcf764a4a1c2967eb7dabb25ba5b025f0c1aae4b1fc55b5d5932282",
+        "sha256_in_prefix": "e1f4ec61bbfc4e6c34da0b6269925d608a7f0a78a3f71b0ef8083286f20bfd96",
+        "size_in_bytes": 9678
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "cfc7d1a729ba2314043794896c9a246699de3677ca6b4cc44bc49c171ca88ae7",
+        "sha256_in_prefix": "5141d6dc6c09b2f63860fbc9a23692e7205d8b8a28615a44b1a95511514a6668",
+        "size_in_bytes": 9521
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e8f1df3f734d03425e8e41f0a94de10e4bb1b9ac972326e1de68d305566e3d74",
+        "sha256_in_prefix": "d9059142883d52674ce1a8f7a46698a462bd296e76f79aca9fc34fe925f36aed",
+        "size_in_bytes": 9801
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xd",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "590b41172de8517d258b55bd278c72c79fd7ef8a9a027f5555e7788eaa1f023f",
+        "sha256_in_prefix": "5b4cd3fd5b56344eca8505cad9d8bef0311bf48d3614d8cdc952dd2c76fb2984",
+        "size_in_bytes": 9741
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xdc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "33f23e3127626217a497de1ed6c72e2cc958c91099df97bb7680999ba45dabef",
+        "sha256_in_prefix": "269b713c137d5bae206052c830ca1d20df090a857145b097a476af0d05ce1032",
+        "size_in_bytes": 9422
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xdce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4a9ff9a4a22128a482ca6491509b92d491fe5bfea7ded611e5715bc1e21406e4",
+        "sha256_in_prefix": "1beb3dfe4bd54b8b2f32cbbec2796144a79603291602eef63733aacd63e0cc43",
+        "size_in_bytes": 9702
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xde",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5e41933d7bdfdc5a1d7e8678f0f16203e6e688560f6e2cabf92c112b50c2cea6",
+        "sha256_in_prefix": "6a5d5250ce5bfdb12295120fb9e90ebc19b4aaa47fafe60116cea310f5a562d7",
+        "size_in_bytes": 10021
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xdw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9d0c998490cda7dc6db83dfbb3898afcddea5ef7a604a7bb371ff8941f5b5665",
+        "sha256_in_prefix": "d851cec9c26ac810b7c6bfe756029048393cd249fd716445974528e0688cfd05",
+        "size_in_bytes": 9383
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xdwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a7cf4e7328decf448b6199cc68d13a062ca00b127df3685271cd207f3b73bcf1",
+        "sha256_in_prefix": "771ad0b3abee910c7e42343a1b7bdd3eb30eee3a393d4b2f77207a7bd123e54c",
+        "size_in_bytes": 9663
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "623d77f9f39573f87d999df895f3eb008c67e38c1446482d537b2c1482cdc3da",
+        "sha256_in_prefix": "1239663b401aca7dc652540c4ebf8e46db0c55231298e365158f8d749280574c",
+        "size_in_bytes": 10120
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1121a6527b6a709b7a92273a9457e95912e65aa029cb7233d6d6d13745e34975",
+        "sha256_in_prefix": "87973037b2e6c5e83e301dc0e61df9082e4c15ce115de439d2e84d02535b5036",
+        "size_in_bytes": 9843
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xr",
+        "path_type": "hardlink",
+        "sha256": "a1ad26ef91ef268f6ee0cee71c59a47ad1ec310c1757871356da350fbffff1cb",
+        "sha256_in_prefix": "a1ad26ef91ef268f6ee0cee71c59a47ad1ec310c1757871356da350fbffff1cb",
+        "size_in_bytes": 4950
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7530b7e21349e9aa8d934d5cfe90e6434717ec75c6d4f2234c9c9aec91aff681",
+        "sha256_in_prefix": "5c1cfdb57006dc90bced3d1b16e24ea4f01c0bacd6a6e6115e90951fc14429f9",
+        "size_in_bytes": 9363
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xsc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ce6d995217d4aae46aeaebe8cc21c12792a877fccc22a06543953530e3c98aae",
+        "sha256_in_prefix": "3c05e8859fb369a475800c6f6d64b1748b9491d73dbdda19e61a64d45a3d30af",
+        "size_in_bytes": 9044
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xsce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2e59f2671ecff9ffadbcdfcf821923e3174ec4e35d4e11d5926e96200819f4e0",
+        "sha256_in_prefix": "b11005d162147ae156779063f7650e5e97d824a4fc0bbbdfb24a9eddabe2babc",
+        "size_in_bytes": 9324
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f5eabbcde6dd932fecd06dc17289059b41f0c3962150aa5e35172a0703a1eff6",
+        "sha256_in_prefix": "99b15e856ab5a8a643e875ad25b55aebdc0e303de3ed440db586f85f3357531f",
+        "size_in_bytes": 9643
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xsw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "92cd14acfee870141f83cdd3183fb6b6bde539a97c0e8c5f45a51c01cbfa5cba",
+        "sha256_in_prefix": "40f03545a9555039b68b4500c93e389332947fef8fb87b25127d61dd27a267fb",
+        "size_in_bytes": 9005
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xswe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "82c8a9875d117e0e86b836dbb613d00abee9fd14430a64c1020a4f1f9cf5dfac",
+        "sha256_in_prefix": "281962366baa74b1c56c7f976069d24dd247de9f66047da8cbb79b1a7f031ae6",
+        "size_in_bytes": 9285
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xu",
+        "path_type": "hardlink",
+        "sha256": "13e3a0b11a700fcce2979defbd083ae825f8fd72df7bb754e1685a463cf0abcd",
+        "sha256_in_prefix": "13e3a0b11a700fcce2979defbd083ae825f8fd72df7bb754e1685a463cf0abcd",
+        "size_in_bytes": 4974
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c1da459c1cd088c4e486726697eaf9553460b6d8c9a7dacb0762b08162980970",
+        "sha256_in_prefix": "35dc41d8f4ec9c5a5ea47b760e90623b56f098e7c0f0c2df8ab2093f61e5b9c2",
+        "size_in_bytes": 9482
+      },
+      {
+        "_path": "lib/ldscripts/elf_k1om.xwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "646745eb97362de72e168c3134d646960699d3f10d7d842eb404740c6022a2d6",
+        "sha256_in_prefix": "f4abf8e75951fb2ffe8c196b68406fa954b6a3a232f0f8cb1ae99f406e5bc67a",
+        "size_in_bytes": 9762
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.x",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "cdcced2266151952f98d45aaba9beb736bb1bc1aa6543511f0188db8ab5bc6eb",
+        "sha256_in_prefix": "686e698fd31e9aed8a7fcfe569d2add16411f22b60c37f68ff1d3a01dc8be1f5",
+        "size_in_bytes": 9875
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xbn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "132645e461ebc23615177755238c981b20cd1933084ecc892debd5af94977486",
+        "sha256_in_prefix": "3387ee134a330d71209df61b1299f6507b9476a221af40427ccd27ca95170d77",
+        "size_in_bytes": 9678
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "192ba27b01f514bc170287ab8714ebd66381b4021c367dbacf813be2cebad61b",
+        "sha256_in_prefix": "4d16363173e44f6b9c636b7f2ce2706324a80d82c7b61ad05514383cdde46edd",
+        "size_in_bytes": 9521
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b5eb40a234b7eb5d9dba44b5803d9ce2c6beec18c161487123e3d15210f67b07",
+        "sha256_in_prefix": "9c3633e594c1d8722146a407853e88c47d9c132d8e4d96ccdbfa637a2fa2b354",
+        "size_in_bytes": 9801
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xd",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c6ecd5441203b59856bc6cd3fbcf227be3034a820743271e2506b09abd671b67",
+        "sha256_in_prefix": "e63ecfcaf8957ca2e596b6a1d925824ef2ffb4630608460c2062af105609dcde",
+        "size_in_bytes": 9741
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xdc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "51f369be74322c47f88074a70513bb6d88e7647866f9b75088387c0a6b4b7e90",
+        "sha256_in_prefix": "1aecc6faba63287a4cb18e7b39584d321337b66b9df4c57090acd1983337b8b1",
+        "size_in_bytes": 9422
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xdce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "03beb969b8ea5d966e5b301ce4626dcd31bf1a960b7e1e9713437ad6bdf01e49",
+        "sha256_in_prefix": "b1bb3c14579a54e24b97fd052978bd8109cf1c24805ba289673f03b0373dd977",
+        "size_in_bytes": 9702
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xde",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "447f5a5ecb8bc7c6997efc16a16f13d2c87992dd27341c4138d88b254d6818a4",
+        "sha256_in_prefix": "571c1490c79884df0580a30e40aa05c00ba8aa7194f0b5efd0eb8a64afb00e05",
+        "size_in_bytes": 10021
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xdw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a0ce79a419fb0aed28a6cc264ac4dc2b646cafd9a523d96708977bf6af66785a",
+        "sha256_in_prefix": "13e63fb15b090c6d482b6e5925acc07eecaf5e5e4482428bebe9ad7111413737",
+        "size_in_bytes": 9383
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xdwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "77bccc4cfff6584170ae24d8286255ffc7a68182058105d31d4f9fed0a311e7c",
+        "sha256_in_prefix": "6285844f1883bfe6c4e7a67dce290993b1ecace2340a117b40e25129d3a7394d",
+        "size_in_bytes": 9663
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9133db2aa4ac36727077cc66b2ccef6ba3dee6dcae5ae2bc7d5f05fdbbd40c64",
+        "sha256_in_prefix": "f3dc6f0e2b019c0eaef87ff751294c1f7b67e1cef7a5538432c3a0b8b29e0c0f",
+        "size_in_bytes": 10120
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "fe955490e4cb2fa902254ed27337611697e82e59aa8f961318c1e445d7ca2f86",
+        "sha256_in_prefix": "404cab9174a50ef10acc16ed7866b2ffa2c280811c3785a9f73d7d4ed00fab11",
+        "size_in_bytes": 9843
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xr",
+        "path_type": "hardlink",
+        "sha256": "ed0edfe39f67fb959f2df8ff463650ee85db3f82a84e0491ce6da391b98ba5e0",
+        "sha256_in_prefix": "ed0edfe39f67fb959f2df8ff463650ee85db3f82a84e0491ce6da391b98ba5e0",
+        "size_in_bytes": 4950
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9ad3703e11481cc306535bbad14840c6a49dc3db303f73d0721607bf7e784bd5",
+        "sha256_in_prefix": "2af4818b06b547dc83bdc8b6f1b8f59abf610f3474445ca197118cf18514b858",
+        "size_in_bytes": 9363
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xsc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ab8251d47d1671655d48b5b0b95979c536f1fcb03ce058ea5c8f7e1058c3f7a2",
+        "sha256_in_prefix": "0afa39c7f496a0b2b6c82a578c67f7b4b8723d7adba86b92250c64f003afc5f7",
+        "size_in_bytes": 9044
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xsce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a9a5fa67edea123967a1035c10919384978c5bb7bfc8cc9fa327054f0fc198e8",
+        "sha256_in_prefix": "6eb95b75dc23f279b55655b5a1dec46b174b872e1b57f3d6b72ef37be4826d0d",
+        "size_in_bytes": 9324
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "df0a5c81b4904d2a68f25bccbfa68e56b3f00e2a9117944df0307cb143a5981a",
+        "sha256_in_prefix": "ddbf12e2c3d85fe75013c9c009bb847789a6242142a97e43d8cca99435960a78",
+        "size_in_bytes": 9643
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xsw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a82844d3f2905c11c46fe8736661a8613b5609c3e633cfff14536a014829b3dd",
+        "sha256_in_prefix": "5f9cda275a711606d4394684163d7cc45063a8c6194bf78b2944df3184f22704",
+        "size_in_bytes": 9005
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xswe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "80c11b199319d911156b9537a1697b2d41e50cdc84eb86685a747d50542a29b8",
+        "sha256_in_prefix": "1549031d56d829734f565e24bbc5c0d71feab1e397d5b6f964052264e485ad27",
+        "size_in_bytes": 9285
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xu",
+        "path_type": "hardlink",
+        "sha256": "3a0d532593fbbb42ba9f6ac4bf8702cde52c71ff64fa009871fd23b66c93c56a",
+        "sha256_in_prefix": "3a0d532593fbbb42ba9f6ac4bf8702cde52c71ff64fa009871fd23b66c93c56a",
+        "size_in_bytes": 4974
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e748b892b1de7a42a019ff7335ec06b6cdc6f9715bc73e4512d74d1a88fc41f7",
+        "sha256_in_prefix": "d45b263cf28ac840196e42dd4de322e893b87b3e25448c7037a7a36030f1fd1b",
+        "size_in_bytes": 9482
+      },
+      {
+        "_path": "lib/ldscripts/elf_l1om.xwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ca5d2dc86479060c2b5ffc12610339a64c3a08969acbeac3bcce5a466c9e935d",
+        "sha256_in_prefix": "7f2aab257e50bd0f2f0e92efccd8d9833ff4a07fa78571ca932d3dd2ce1e64e8",
+        "size_in_bytes": 9762
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.x",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1fbcb658fd0c0279ccf8ff9729945b5e7106f8a5a3668803565a4544844c8bc9",
+        "sha256_in_prefix": "dcbe35d1b208d54cb3a63f049098e64e3a03541173b264e6b5fb7df0d5a60aa5",
+        "size_in_bytes": 10618
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xbn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4b926ab4dfd87e3ec122eb684d6d0a9b36b03abc923a4f019928e1ad146bad8b",
+        "sha256_in_prefix": "ee97f6a40e283a8ee0387bdb3b3822b5099f9fbcbae3baa1d18d7f2836d37bd9",
+        "size_in_bytes": 10421
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a251269d31a136f5fba384371963d4543be19ffb7a1795279011794b55bc8efe",
+        "sha256_in_prefix": "0550bca39f987c1f08dbdf1f401d55a111256e3f2bb0b14d410a0618f3f7baaa",
+        "size_in_bytes": 10264
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "6433caac7583e82676eb26386d85377b75b29aef32c1a98b8770ab35d572a2bd",
+        "sha256_in_prefix": "cfde793fedd723dff61275345fd49c0875fd11a991e395e8efd941037ea44ff3",
+        "size_in_bytes": 10544
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xd",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c1d4cf00561803360aa6067f17fd42c04710664a52b91203e18e97dc1a5d6b8d",
+        "sha256_in_prefix": "99cff35fe5f890447b888cbeb2f933b61ba63efe177a255aab1f0802d33b007e",
+        "size_in_bytes": 10484
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xdc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "aadd4e2a4815d11b6d10ed4a9f2495f4b7385218e2fd9975c85191a3790fb4dd",
+        "sha256_in_prefix": "1c4071455beb7052857419c1aad9b221e83a76084716fdf66a7b9c416b5e475b",
+        "size_in_bytes": 10165
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xdce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1ce98a04776bd2b2059138e58eab002ce1035c4b0c6b6bff3b864b15c522513f",
+        "sha256_in_prefix": "199cdbd360899b557d7ea83b5f61e11a1daf6912367043338f160398cd72551e",
+        "size_in_bytes": 10445
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xde",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3eef414553726a6252007b5521270e86abd4174dcdafb7ba6bf62780ecf85849",
+        "sha256_in_prefix": "f1a191b035d96b32eee07e6b2cd7668ce54a5fe5c8a30751f4afdae5bf6526e4",
+        "size_in_bytes": 10764
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xdw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d6ccf8bf4bc159e16482fd91cf77452c4fbaa02f1847688a97b066a355e74d2c",
+        "sha256_in_prefix": "d00689858ebdbfd6759710fdc15467230f147c29990e68a2f2095814146a5e3b",
+        "size_in_bytes": 10126
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xdwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9d2082d8ab961902b52579faf0bcbe3f0d27228dd1f07461f89329ff1911b389",
+        "sha256_in_prefix": "1f992d1c6e33b5f57a8e6a7c0d818acd3a56d8aeabebc5f59a9e496b5cd419f8",
+        "size_in_bytes": 10406
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "09026083990986352b02cdcc04dcd336661fc53a847a5beb72aa7ed80d6b10a5",
+        "sha256_in_prefix": "ea615cc70c54b7da24243a9731667c888abce7b2ba9cafbe5f484286aacae115",
+        "size_in_bytes": 10863
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a0ecd5f8e3582159b29d774b21d791818399926715d229377e06b786125b9c4a",
+        "sha256_in_prefix": "560f982cd475ec43f0e2891b25c8364594a85f25cab41274d67e64fc20f6bcca",
+        "size_in_bytes": 10586
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xr",
+        "path_type": "hardlink",
+        "sha256": "b51367dad1435580b07d9f352ba7ad0ae0505985c74bc665e2ff025b682b4325",
+        "sha256_in_prefix": "b51367dad1435580b07d9f352ba7ad0ae0505985c74bc665e2ff025b682b4325",
+        "size_in_bytes": 5031
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a2b62ec51a024fa1c8aaa3b157947c8363b042de02236df3cd1b6b479bd5fe50",
+        "sha256_in_prefix": "3532f75947e97beb57232c87ee7d36727968fe97a16314949e685b8c7929092f",
+        "size_in_bytes": 10106
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xsc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d1f57c0a8c449ed185550e9de634d138c8ce44da2904b851db4933e187810db2",
+        "sha256_in_prefix": "7de59395337371897e8fe889534e4f728ca9b8d1a690c601d61cb26c1bfeb9ef",
+        "size_in_bytes": 9787
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xsce",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8fe772275e36f0a88736626d8df47f3e65cb6cbde794666aa664c5a5f67c7df6",
+        "sha256_in_prefix": "9776d16695fb19b297af48311e7c91e42a8477f8a5271f3a8518caea13eb1caa",
+        "size_in_bytes": 10067
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xse",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "09ee52d07cfd22db7e288ebc217586c629525b9779952384eefa97de8afeac39",
+        "sha256_in_prefix": "8dfc9f78f1ac023f95c2b79e0a32ef0ec5ed79a7baa7e4d910efd89f50e2d8de",
+        "size_in_bytes": 10386
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xsw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a0e4d6962f4879790f7af424731a7a2b6a97672d35b444307856415006c43ad6",
+        "sha256_in_prefix": "490f0fbb7e8a2ee3e140c8cd308f22fd63c4f8c2ccb67c0769e1ee69ed4876f9",
+        "size_in_bytes": 9748
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xswe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0957f9eeee2779a0cadc8474199e9c0ee1fb50f496de5a51fde5d79275d2ea29",
+        "sha256_in_prefix": "1ce80f36431305a8c2876ced20db169bcced7e92719f6cd05b8ba7dde28a719f",
+        "size_in_bytes": 10028
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xu",
+        "path_type": "hardlink",
+        "sha256": "4cc15a005c9f59ff1d360d8f24a16ec290c8ce89f275df1f7ae887912b34ddca",
+        "sha256_in_prefix": "4cc15a005c9f59ff1d360d8f24a16ec290c8ce89f275df1f7ae887912b34ddca",
+        "size_in_bytes": 5055
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "97e2efd0248fd7ace991086e59c5033f9eb409787ade15e1aa797421b12a27e3",
+        "sha256_in_prefix": "5a966e608828c8795462e0ff632b29d7d9f33d4cfad416c9a09f53069563ab0d",
+        "size_in_bytes": 10225
+      },
+      {
+        "_path": "lib/ldscripts/elf_x86_64.xwe",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/binutils_split_1627433431569/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0fd2e817c3f56f7f197892b2882017d91f21ab21cd7ee23c067aa5d152b387e2",
+        "sha256_in_prefix": "4b06e9ff8c1b45b17eaa1acfb11d8914a14965fd03cb87c7178af06729a7efc0",
+        "size_in_bytes": 10505
+      },
+      {
+        "_path": "lib/libbfd.a",
+        "path_type": "hardlink",
+        "sha256": "c78ae09baa43bb239600d9864464462ade808bd58e019e5522265e64a72cf925",
+        "sha256_in_prefix": "c78ae09baa43bb239600d9864464462ade808bd58e019e5522265e64a72cf925",
+        "size_in_bytes": 1698108
+      },
+      {
+        "_path": "lib/libctf-nobfd.a",
+        "path_type": "hardlink",
+        "sha256": "829a1099e0ca151813834d8b404f917c456a6be66790c88968d571b9c7c2154b",
+        "sha256_in_prefix": "829a1099e0ca151813834d8b404f917c456a6be66790c88968d571b9c7c2154b",
+        "size_in_bytes": 277416
+      },
+      {
+        "_path": "lib/libctf.a",
+        "path_type": "hardlink",
+        "sha256": "a635320656c37fb26219efe2dfbb4d619437456ea254b6d9424c7d8b2fd73611",
+        "sha256_in_prefix": "a635320656c37fb26219efe2dfbb4d619437456ea254b6d9424c7d8b2fd73611",
+        "size_in_bytes": 285634
+      },
+      {
+        "_path": "lib/libopcodes.a",
+        "path_type": "hardlink",
+        "sha256": "a3de7191d5b410e6d6e7bb25f7d5fb095f073ac8f2968a4f2de00d790606d6ed",
+        "sha256_in_prefix": "a3de7191d5b410e6d6e7bb25f7d5fb095f073ac8f2968a4f2de00d790606d6ed",
+        "size_in_bytes": 1287168
+      },
+      {
+        "_path": "share/info/as.info",
+        "path_type": "hardlink",
+        "sha256": "4795a41d39df9c4958e2b9ceddcb26eed703bab593935b37be896e4d9a59ffb5",
+        "sha256_in_prefix": "4795a41d39df9c4958e2b9ceddcb26eed703bab593935b37be896e4d9a59ffb5",
+        "size_in_bytes": 1205601
+      },
+      {
+        "_path": "share/info/bfd.info",
+        "path_type": "hardlink",
+        "sha256": "6c6b28b32805054c96bfb6902b8798eaf2785fdaeb550cdd8a6c212d3c7adc0d",
+        "sha256_in_prefix": "6c6b28b32805054c96bfb6902b8798eaf2785fdaeb550cdd8a6c212d3c7adc0d",
+        "size_in_bytes": 665035
+      },
+      {
+        "_path": "share/info/binutils.info",
+        "path_type": "hardlink",
+        "sha256": "a721f93c1f13e4171bd5ad721c377eb3fc919e89b84965b6ae213a6a9540dab2",
+        "sha256_in_prefix": "a721f93c1f13e4171bd5ad721c377eb3fc919e89b84965b6ae213a6a9540dab2",
+        "size_in_bytes": 240849
+      },
+      {
+        "_path": "share/info/gprof.info",
+        "path_type": "hardlink",
+        "sha256": "efed356ced0e513baa2527884f5a614aa26f687937ca0ea4deb1fd957547e2d5",
+        "sha256_in_prefix": "efed356ced0e513baa2527884f5a614aa26f687937ca0ea4deb1fd957547e2d5",
+        "size_in_bytes": 112846
+      },
+      {
+        "_path": "share/info/ld.info",
+        "path_type": "hardlink",
+        "sha256": "3db6ddac2e562c7511ced0ba9922f8e5ecc978a81f3f7b88bd67c15f22626d1c",
+        "sha256_in_prefix": "3db6ddac2e562c7511ced0ba9922f8e5ecc978a81f3f7b88bd67c15f22626d1c",
+        "size_in_bytes": 437638
+      },
+      {
+        "_path": "share/man/man1/addr2line.1",
+        "path_type": "hardlink",
+        "sha256": "0e4827ba02397252c6706117172101f28d4d9dfadc5f2dd0403f4751501bd218",
+        "sha256_in_prefix": "0e4827ba02397252c6706117172101f28d4d9dfadc5f2dd0403f4751501bd218",
+        "size_in_bytes": 12182
+      },
+      {
+        "_path": "share/man/man1/ar.1",
+        "path_type": "hardlink",
+        "sha256": "bbfa19a8dbe461265b0473b7f788e1f044d6b89683c14eb2d65ae26b189fdd7b",
+        "sha256_in_prefix": "bbfa19a8dbe461265b0473b7f788e1f044d6b89683c14eb2d65ae26b189fdd7b",
+        "size_in_bytes": 22181
+      },
+      {
+        "_path": "share/man/man1/as.1",
+        "path_type": "hardlink",
+        "sha256": "71e3241751fd3241bc36dbba6821503c89e0ced8a808e4f27db1304d709cff49",
+        "sha256_in_prefix": "71e3241751fd3241bc36dbba6821503c89e0ced8a808e4f27db1304d709cff49",
+        "size_in_bytes": 117407
+      },
+      {
+        "_path": "share/man/man1/c++filt.1",
+        "path_type": "hardlink",
+        "sha256": "4991efa0a234ebe7e79258306c6e094c15df4819ab8ca27f5d84872024e6b55d",
+        "sha256_in_prefix": "4991efa0a234ebe7e79258306c6e094c15df4819ab8ca27f5d84872024e6b55d",
+        "size_in_bytes": 12363
+      },
+      {
+        "_path": "share/man/man1/dlltool.1",
+        "path_type": "hardlink",
+        "sha256": "e8a8b6121a11eed368eb82afdaa8fbd9f419260b3132e22e7a41c041cdbb5460",
+        "sha256_in_prefix": "e8a8b6121a11eed368eb82afdaa8fbd9f419260b3132e22e7a41c041cdbb5460",
+        "size_in_bytes": 20778
+      },
+      {
+        "_path": "share/man/man1/elfedit.1",
+        "path_type": "hardlink",
+        "sha256": "af06760e37447ca76395efdfdd5869c495da36a02ad57c64b8b499dc4aa40310",
+        "sha256_in_prefix": "af06760e37447ca76395efdfdd5869c495da36a02ad57c64b8b499dc4aa40310",
+        "size_in_bytes": 9526
+      },
+      {
+        "_path": "share/man/man1/gprof.1",
+        "path_type": "hardlink",
+        "sha256": "dbcdea7291884c74218b7f2c652feaa29990c2532de7c7772451cbb3761396c8",
+        "sha256_in_prefix": "dbcdea7291884c74218b7f2c652feaa29990c2532de7c7772451cbb3761396c8",
+        "size_in_bytes": 30107
+      },
+      {
+        "_path": "share/man/man1/ld.1",
+        "path_type": "hardlink",
+        "sha256": "2bbb43d813c16a3028a4ad8634d3514458fc6f3891d9fa025b880eef306c8762",
+        "sha256_in_prefix": "2bbb43d813c16a3028a4ad8634d3514458fc6f3891d9fa025b880eef306c8762",
+        "size_in_bytes": 151882
+      },
+      {
+        "_path": "share/man/man1/nm.1",
+        "path_type": "hardlink",
+        "sha256": "49e5bd4b909b7048e56fdd7fd9dc3bc5bff79037694aa84684161733a0768565",
+        "sha256_in_prefix": "49e5bd4b909b7048e56fdd7fd9dc3bc5bff79037694aa84684161733a0768565",
+        "size_in_bytes": 22034
+      },
+      {
+        "_path": "share/man/man1/objcopy.1",
+        "path_type": "hardlink",
+        "sha256": "ac26a519ec426b43086bd16617eb12aea9905b7a436b43a8bfd97adf201e6d35",
+        "sha256_in_prefix": "ac26a519ec426b43086bd16617eb12aea9905b7a436b43a8bfd97adf201e6d35",
+        "size_in_bytes": 55707
+      },
+      {
+        "_path": "share/man/man1/objdump.1",
+        "path_type": "hardlink",
+        "sha256": "f56970b4d9ea68a22fcb761b33790da2168160f08c61ce88454bbc39b051f19d",
+        "sha256_in_prefix": "f56970b4d9ea68a22fcb761b33790da2168160f08c61ce88454bbc39b051f19d",
+        "size_in_bytes": 48049
+      },
+      {
+        "_path": "share/man/man1/ranlib.1",
+        "path_type": "hardlink",
+        "sha256": "e0133d638fd8e92299a93ac16c3e70c100835576ab13280fd686b4dfbca51da5",
+        "sha256_in_prefix": "e0133d638fd8e92299a93ac16c3e70c100835576ab13280fd686b4dfbca51da5",
+        "size_in_bytes": 7282
+      },
+      {
+        "_path": "share/man/man1/readelf.1",
+        "path_type": "hardlink",
+        "sha256": "418fdcba8be1787307a7f0e7b3d8ae3403003cbb60def68177814e4a9426678a",
+        "sha256_in_prefix": "418fdcba8be1787307a7f0e7b3d8ae3403003cbb60def68177814e4a9426678a",
+        "size_in_bytes": 26047
+      },
+      {
+        "_path": "share/man/man1/size.1",
+        "path_type": "hardlink",
+        "sha256": "e557bcc48e5a716d41e909c78c38c2a4142f28bf769af7fbeba9474a3ca707fe",
+        "sha256_in_prefix": "e557bcc48e5a716d41e909c78c38c2a4142f28bf769af7fbeba9474a3ca707fe",
+        "size_in_bytes": 10266
+      },
+      {
+        "_path": "share/man/man1/strings.1",
+        "path_type": "hardlink",
+        "sha256": "4ab715216ff1d715db7ba119f23fb598d8c20a23f3579ccd3eef24c55147a368",
+        "sha256_in_prefix": "4ab715216ff1d715db7ba119f23fb598d8c20a23f3579ccd3eef24c55147a368",
+        "size_in_bytes": 10873
+      },
+      {
+        "_path": "share/man/man1/strip.1",
+        "path_type": "hardlink",
+        "sha256": "f3177c9ed451dd1d2f9972e51ef2ca1410f1e0da82619ddd34028b0755ede81c",
+        "sha256_in_prefix": "f3177c9ed451dd1d2f9972e51ef2ca1410f1e0da82619ddd34028b0755ede81c",
+        "size_in_bytes": 18003
+      },
+      {
+        "_path": "share/man/man1/windmc.1",
+        "path_type": "hardlink",
+        "sha256": "dc74a4874f366d8d551dc9c8e6e37a812ace0bb4e8d145cf7be2847173fe0e68",
+        "sha256_in_prefix": "dc74a4874f366d8d551dc9c8e6e37a812ace0bb4e8d145cf7be2847173fe0e68",
+        "size_in_bytes": 10693
+      },
+      {
+        "_path": "share/man/man1/windres.1",
+        "path_type": "hardlink",
+        "sha256": "2cd2034fa72c09cfb9cd8920fcba6297dd74385d1e53613cb6d5a18e4625f7be",
+        "sha256_in_prefix": "2cd2034fa72c09cfb9cd8920fcba6297dd74385d1e53613cb6d5a18e4625f7be",
+        "size_in_bytes": 13387
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/addr2line",
+        "path_type": "softlink",
+        "sha256": "a3488920360d2c98bb0703910b1bbd9ec7051a268366a7de2016ad90cb3eee94",
+        "size_in_bytes": 1052760
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/ar",
+        "path_type": "softlink",
+        "sha256": "ea3c1ee8a75292ff95c7831f39a5523cd3ddf6b5828f9bff9098fab17891fa38",
+        "size_in_bytes": 1085336
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/as",
+        "path_type": "softlink",
+        "sha256": "02b046bdd1919dbbda875bf54011487f2ec6390f162b678cdbb274f5eb159a27",
+        "size_in_bytes": 1698472
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/c++filt",
+        "path_type": "softlink",
+        "sha256": "4aa22f6b0f24db4118062221efd1c9947b9b4af4a639f765e70ba9d08b3dddd8",
+        "size_in_bytes": 1052184
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/dwp",
+        "path_type": "softlink",
+        "sha256": "9f6699fec91db7bd1ce54aae705ae36687877a1c130a5fec64b287ffd5339ef1",
+        "size_in_bytes": 2546000
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/elfedit",
+        "path_type": "softlink",
+        "sha256": "4e41df52f19e6ce6f0da1b8114fd90115f27ae740015fd9bfeb598a1f29c2514",
+        "size_in_bytes": 32968
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/gprof",
+        "path_type": "softlink",
+        "sha256": "5981adc7ebdc71373498a256ff25d5ff34ae00ef9d4ae829a37c3168115b3abd",
+        "size_in_bytes": 1114520
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/ld.bfd",
+        "path_type": "softlink",
+        "sha256": "818635e7abfb0cb20f2db5b87fe1c42beafc0a5e155a25e087606fd2e9a9f7b1",
+        "size_in_bytes": 2742376
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/ld.gold",
+        "path_type": "softlink",
+        "sha256": "d34a19428c2e4828167e793a048fc89cbb3267a01877b88cfb3d2a0a1da893d8",
+        "size_in_bytes": 4978800
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/nm",
+        "path_type": "softlink",
+        "sha256": "7f68881440d66a93b8771a73c17830ec0b0681c84d66bae879eed5703dcd438f",
+        "size_in_bytes": 1065712
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/objcopy",
+        "path_type": "softlink",
+        "sha256": "1c34522d7284d0e208ea1714c5952c1a968bed0fc74762f440fa2155572ecee5",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/objdump",
+        "path_type": "softlink",
+        "sha256": "782f13f81c45c397ee79f5a0eec9c0708773c6de4f2a8f0b65dbe7e3e319fb52",
+        "size_in_bytes": 2205296
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/ranlib",
+        "path_type": "softlink",
+        "sha256": "17c993076db1bc9311589c573bbcd9d3dc8ed6083720c1aeaacb84052195ea6e",
+        "size_in_bytes": 1085368
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/readelf",
+        "path_type": "softlink",
+        "sha256": "d7ddf503c5f6bcf5b48b83374037978403b5fc3e762a9b64c705534116a51000",
+        "size_in_bytes": 877176
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/size",
+        "path_type": "softlink",
+        "sha256": "5f9a9470f958c04d81603470a9e78a9e5f62fd6c353cd709e2284d767cac84ac",
+        "size_in_bytes": 1053808
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/strings",
+        "path_type": "softlink",
+        "sha256": "2b85cb7cb8871addabb4b127312d5c924ffaad0de99236c3290fd97a6a28e87f",
+        "size_in_bytes": 1053144
+      },
+      {
+        "_path": "x86_64-conda-linux-gnu/bin/strip",
+        "path_type": "softlink",
+        "sha256": "29665e7500422d6e0ac224550f329ce36727374fe58d316ceca28d257f2a1bb0",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/addr2line",
+        "path_type": "softlink",
+        "sha256": "a3488920360d2c98bb0703910b1bbd9ec7051a268366a7de2016ad90cb3eee94",
+        "size_in_bytes": 1052760
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/ar",
+        "path_type": "softlink",
+        "sha256": "ea3c1ee8a75292ff95c7831f39a5523cd3ddf6b5828f9bff9098fab17891fa38",
+        "size_in_bytes": 1085336
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/as",
+        "path_type": "softlink",
+        "sha256": "02b046bdd1919dbbda875bf54011487f2ec6390f162b678cdbb274f5eb159a27",
+        "size_in_bytes": 1698472
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/c++filt",
+        "path_type": "softlink",
+        "sha256": "4aa22f6b0f24db4118062221efd1c9947b9b4af4a639f765e70ba9d08b3dddd8",
+        "size_in_bytes": 1052184
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/dwp",
+        "path_type": "softlink",
+        "sha256": "9f6699fec91db7bd1ce54aae705ae36687877a1c130a5fec64b287ffd5339ef1",
+        "size_in_bytes": 2546000
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/elfedit",
+        "path_type": "softlink",
+        "sha256": "4e41df52f19e6ce6f0da1b8114fd90115f27ae740015fd9bfeb598a1f29c2514",
+        "size_in_bytes": 32968
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/gprof",
+        "path_type": "softlink",
+        "sha256": "5981adc7ebdc71373498a256ff25d5ff34ae00ef9d4ae829a37c3168115b3abd",
+        "size_in_bytes": 1114520
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/ld.bfd",
+        "path_type": "softlink",
+        "sha256": "818635e7abfb0cb20f2db5b87fe1c42beafc0a5e155a25e087606fd2e9a9f7b1",
+        "size_in_bytes": 2742376
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/ld.gold",
+        "path_type": "softlink",
+        "sha256": "d34a19428c2e4828167e793a048fc89cbb3267a01877b88cfb3d2a0a1da893d8",
+        "size_in_bytes": 4978800
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/nm",
+        "path_type": "softlink",
+        "sha256": "7f68881440d66a93b8771a73c17830ec0b0681c84d66bae879eed5703dcd438f",
+        "size_in_bytes": 1065712
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/objcopy",
+        "path_type": "softlink",
+        "sha256": "1c34522d7284d0e208ea1714c5952c1a968bed0fc74762f440fa2155572ecee5",
+        "size_in_bytes": 1191792
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/objdump",
+        "path_type": "softlink",
+        "sha256": "782f13f81c45c397ee79f5a0eec9c0708773c6de4f2a8f0b65dbe7e3e319fb52",
+        "size_in_bytes": 2205296
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/ranlib",
+        "path_type": "softlink",
+        "sha256": "17c993076db1bc9311589c573bbcd9d3dc8ed6083720c1aeaacb84052195ea6e",
+        "size_in_bytes": 1085368
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/readelf",
+        "path_type": "softlink",
+        "sha256": "d7ddf503c5f6bcf5b48b83374037978403b5fc3e762a9b64c705534116a51000",
+        "size_in_bytes": 877176
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/size",
+        "path_type": "softlink",
+        "sha256": "5f9a9470f958c04d81603470a9e78a9e5f62fd6c353cd709e2284d767cac84ac",
+        "size_in_bytes": 1053808
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/strings",
+        "path_type": "softlink",
+        "sha256": "2b85cb7cb8871addabb4b127312d5c924ffaad0de99236c3290fd97a6a28e87f",
+        "size_in_bytes": 1053144
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/bin/strip",
+        "path_type": "softlink",
+        "sha256": "29665e7500422d6e0ac224550f329ce36727374fe58d316ceca28d257f2a1bb0",
+        "size_in_bytes": 1191792
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7cdcbb78f3b521efbcbd72424fb56a4e030001cccf2a6bca800aef4b9a5ed93a",
+  "size": 10940477,
+  "subdir": "linux-64",
+  "timestamp": 1627433692000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/binutils_impl_linux-64-2.36.1-h193b22a_2.tar.bz2",
+  "version": "2.36.1"
+}

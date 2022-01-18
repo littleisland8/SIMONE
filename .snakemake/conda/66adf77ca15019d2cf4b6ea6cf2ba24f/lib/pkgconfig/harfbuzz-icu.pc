@@ -1,0 +1,11 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: harfbuzz-icu
+Description: HarfBuzz text shaping library ICU integration
+Version: 3.2.0
+Requires: harfbuzz =  3.2.0
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

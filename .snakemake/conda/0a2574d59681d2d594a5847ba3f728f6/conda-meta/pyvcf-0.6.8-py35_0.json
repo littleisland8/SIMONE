@@ -1,0 +1,183 @@
+{
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.5*"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/pyvcf-0.6.8-py35_0",
+  "features": "",
+  "files": [
+    "bin/vcf_filter.py",
+    "bin/vcf_melt",
+    "bin/vcf_sample_filter.py",
+    "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/entry_points.txt",
+    "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/vcf/__init__.py",
+    "lib/python3.5/site-packages/vcf/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/__pycache__/filters.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/__pycache__/model.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/__pycache__/parser.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/__pycache__/sample_filter.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/cparse.pyx",
+    "lib/python3.5/site-packages/vcf/filters.py",
+    "lib/python3.5/site-packages/vcf/model.py",
+    "lib/python3.5/site-packages/vcf/parser.py",
+    "lib/python3.5/site-packages/vcf/sample_filter.py",
+    "lib/python3.5/site-packages/vcf/test/__init__.py",
+    "lib/python3.5/site-packages/vcf/test/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/test/__pycache__/prof.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/test/__pycache__/test_vcf.cpython-35.pyc",
+    "lib/python3.5/site-packages/vcf/test/prof.py",
+    "lib/python3.5/site-packages/vcf/test/test_vcf.py",
+    "lib/python3.5/site-packages/vcf/utils.py"
+  ],
+  "fn": "pyvcf-0.6.8-py35_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/pyvcf-0.6.8-py35_0",
+    "type": 1
+  },
+  "md5": "e222f3b203d11157c666a4ce606c5a0d",
+  "name": "pyvcf",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/pyvcf-0.6.8-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/vcf_filter.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c9edbc4f9820bcb0b82e70ac1ef045f1e75c9afcdd673055089c95c4d5759abc"
+      },
+      {
+        "_path": "bin/vcf_melt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a93f096ce4ccaba94584a82be5d2deba3d6af7d7bdf1e5c5a7a0e041513dc946"
+      },
+      {
+        "_path": "bin/vcf_sample_filter.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "752feabf3720a38f0a74d46514ee484ea633c5548f278e612dc5f4be279df47f"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/entry_points.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PyVCF-0.6.8-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__pycache__/filters.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__pycache__/model.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__pycache__/parser.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__pycache__/sample_filter.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/cparse.pyx",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/filters.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/model.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/parser.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/sample_filter.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/test/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/test/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/test/__pycache__/prof.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/test/__pycache__/test_vcf.cpython-35.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/test/prof.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/test/test_vcf.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/vcf/utils.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7b52c8c080d83793fa09eaf86540b172a2dfbc523eb3be666c86e93875f3e107",
+  "size": 59765,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pyvcf-0.6.8-py35_0.tar.bz2",
+  "version": "0.6.8"
+}

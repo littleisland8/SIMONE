@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b
+libdir=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/lib
+includedir=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/include
+
+Name: lz4
+Description: extremely fast lossless compression algorithm library
+URL: http://www.lz4.org/
+Version: 1.9.3
+Libs: -L/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/lib -llz4
+Cflags: -I/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/include

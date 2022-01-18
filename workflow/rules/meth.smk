@@ -13,9 +13,8 @@ rule index_fast5:
 	shell:
 		"""
 		var=$(find {params.f5path} -name {params.name} -type d -exec readlink -f {{}} +;) && \
-		nanopolish index -d ${{var}} {input}
+		nanopolish index -d ${{var}} {input} 2>{log}
 		"""
-
 rule call_meth:
 	input:
 		fq="data/{sample}.pass.fastq.gz",
@@ -27,18 +26,18 @@ rule call_meth:
 		"results/{sample}.methcalls.tsv"
 	log:
 		"logs/{sample}_nanopolish_methylation.log"
-	threads: 20
+	threads: 10
 	conda: 
 		"../envs/nanopolish.yaml"
 	shell:
-		"nanopolish call-methylation -t {threads} -r {input.fq} -b {input.bam} -g {input.ref} > {output}"
+		"nanopolish call-methylation -t {threads} -r {input.fq} -b {input.bam} -g {input.ref} > {output} 2>{log}"
 
 rule nanopolish_freq:
         input:
                 "results/{sample}.methcalls.tsv"
         output:
                 "results/{sample}.methfreq.tsv"
-        threads: 1
+        threads: config["threads"]
         conda:
                 "../envs/nanopolish.yaml"
         log:
@@ -50,21 +49,18 @@ rule nanopolish_freq:
 
 rule make_window:
 	input:
-		config["genome"]
+		"data/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai"
 	output:
 		"results/intervals.bed"
-	threads:  1
+	threads:  config["threads"]
 	conda:
 		"../envs/bedtools.yaml"
 	log:
 		"logs/make_interval.log"
-	params:
-		idx="data/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai"
 	shell:
 		"""
-		samtools faidx {input} -o {params.idx} && bedtools makewindows -b <(cut -f1,2 {params.idx} | head -24 |awk 'OFS=FS="\t"''{{print $1, "1", $2}}') -w 100000 | sortBed > {output}
+		bedtools makewindows -b <(cut -f1,2 {input} | head -24 |awk 'OFS=FS="\t"''{{print $1, "1", $2}}') -w 100000 | sortBed > {output} 2>{log}
 		"""	
-
 
 rule parse_meth_freq:
 	input:
@@ -72,7 +68,7 @@ rule parse_meth_freq:
 		methfreq="results/{sample}.methfreq.tsv"
 	output:
 		"results/{sample}.methfreq.parsed.bed"
-	threads: 1
+	threads: config["threads"]
 	conda:
 		"../envs/bedtools.yaml"
 	log:
@@ -82,7 +78,7 @@ rule parse_meth_freq:
 		name="{sample}"
 	shell:
 		"""
-		tail -n+2 {input.methfreq} | sortBed | awk 'FS=OFS="\t"''{{print $1,$2,$3,$7}}' > results/{params.name}.test.bed && bgzip results/{params.name}.test.bed && tabix results/{params.name}.test.bed.gz && while IFS=$'\t' read -r chrom start end; do tabix results/{params.name}.test.bed.gz $chrom":"$start"-"$end > results/{params.name}.overlap.bed && if [ -s results/{params.name}.overlap.bed ]; then mean=$(cut -f 4 results/{params.name}.overlap.bed | awk '{{ sum += $1; n++ }} END {{ if (n > 0) print sum / n; }}') && echo -e $chrom"\t"$start"\t"$end"\t"$mean"\t"{params.name} >> {output};fi;done<{input.intervals} && rm results/{params.name}.overlap.bed && rm results/{params.name}.test.bed.gz && rm results/{params.name}.test.bed.gz.tbi
+		tail -n+2 {input.methfreq} | sortBed | awk 'FS=OFS="\t"''{{print $1,$2,$3,$7}}' > results/{params.name}.test.bed && bgzip results/{params.name}.test.bed && tabix results/{params.name}.test.bed.gz && while IFS=$'\t' read -r chrom start end; do tabix results/{params.name}.test.bed.gz $chrom":"$start"-"$end > results/{params.name}.overlap.bed && if [ -s results/{params.name}.overlap.bed ]; then mean=$(cut -f 4 results/{params.name}.overlap.bed | awk '{{ sum += $1; n++ }} END {{ if (n > 0) print sum / n; }}') && echo -e $chrom"\t"$start"\t"$end"\t"$mean"\t"{params.name} >> {output};fi;done<{input.intervals} && rm results/{params.name}.overlap.bed && rm results/{params.name}.test.bed.gz && rm results/{params.name}.test.bed.gz.tbi 2>{log}
 		"""
 
 rule pycometh_CpG:
@@ -92,14 +88,14 @@ rule pycometh_CpG:
 	output:
 		bed9="results/{sample}.CpG.bed9",
 		tsv="results/{sample}.CpG.tsv"
-	threads: 1
+	threads: config["threads"]
 	conda:
-		"../envs/pycoMeth.yaml"
+		"../envs/pycometh.yaml"
 	log: "logs/{sample}_pycoMeth.cpg.log"
 	params:
 		name="{sample}"
 	shell:
-		"pycoMeth CpG_Aggregate -i {input.meth} -f {input.ref} -b {output.bed9} -t {output.tsv} -d 5 -s {params.name} -v -p"
+		"pycoMeth CpG_Aggregate -i {input.meth} -f {input.ref} -b {output.bed9} -t {output.tsv} -d 5 -s {params.name} -v -p 2>{log}"
 
 rule pycometh_Interval:
 	input:
@@ -108,23 +104,23 @@ rule pycometh_Interval:
 	output:
 		bed9="results/{sample}.interval.bed9",
 		tsv="results/{sample}.interval.tsv"
-	threads: 1
+	threads: config["threads"]
 	conda:
-		"../envs/pycoMeth.yaml"
+		"../envs/pycometh.yaml"
 	log: "logs/{sample}_pycoMeth.interval.log"
 	params:
 		name="{sample}"
 	shell:
-		"pycoMeth Interval_Aggregate -i {input.CpG} -f {input.ref} -b {output.bed9} -t {output.tsv} -s {params.name} -v -p"
+		"pycoMeth Interval_Aggregate -i {input.CpG} -f {input.ref} -b {output.bed9} -t {output.tsv} -s {params.name} -v -p 2>{log}"
 
 rule pycometh_Meth_Comp:
 	input:
 		expand(f"results/{{sample}}.interval.tsv", sample=config["samples"].values())
 	output:
 		directory("results/pycoMeth")
-	threads: 1
+	threads: config["threads"]
 	conda:
-		"../envs/pycoMeth.yaml"
+		"../envs/pycometh.yaml"
 	log:"logs/pycoMethcomp.log"
 	params:
 		ref=config["genome"],

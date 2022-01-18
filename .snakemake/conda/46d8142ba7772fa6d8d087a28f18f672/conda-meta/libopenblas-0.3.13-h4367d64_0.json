@@ -1,0 +1,79 @@
+{
+  "build": "h4367d64_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libgfortran-ng >=7,<8.0a0"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/libopenblas-0.3.13-h4367d64_0",
+  "features": "",
+  "files": [
+    "lib/libblas.so",
+    "lib/libcblas.so",
+    "lib/liblapack.so",
+    "lib/libopenblas.so",
+    "lib/libopenblas.so.0",
+    "lib/libopenblasp-r0.3.13.so"
+  ],
+  "fn": "libopenblas-0.3.13-h4367d64_0.conda",
+  "license": "BSD",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/libopenblas-0.3.13-h4367d64_0",
+    "type": 1
+  },
+  "md5": "c8a328b6c15b20d33210bf1e8eae85ff",
+  "name": "libopenblas",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/libopenblas-0.3.13-h4367d64_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libblas.so",
+        "path_type": "softlink",
+        "sha256": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "size_in_bytes": 32365280
+      },
+      {
+        "_path": "lib/libcblas.so",
+        "path_type": "softlink",
+        "sha256": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "size_in_bytes": 32365280
+      },
+      {
+        "_path": "lib/liblapack.so",
+        "path_type": "softlink",
+        "sha256": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "size_in_bytes": 32365280
+      },
+      {
+        "_path": "lib/libopenblas.so",
+        "path_type": "softlink",
+        "sha256": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "size_in_bytes": 32365280
+      },
+      {
+        "_path": "lib/libopenblas.so.0",
+        "path_type": "softlink",
+        "sha256": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "size_in_bytes": 32365280
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.13.so",
+        "path_type": "hardlink",
+        "sha256": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "sha256_in_prefix": "a3d7b2292a8d5301936a0b6cdb781039e234a665ede9fceb0ce8a3b61266d061",
+        "size_in_bytes": 32365280
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7e6f375f4afa9dbc47f4e559ef8896ac2b6f7f3650a3a9c64b0a842e397ca4aa",
+  "size": 5054338,
+  "subdir": "linux-64",
+  "timestamp": 1616438133000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libopenblas-0.3.13-h4367d64_0.conda",
+  "version": "0.3.13"
+}

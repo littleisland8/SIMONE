@@ -1,0 +1,9 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: pthread stubs
+Description: Meta package for pthread symbols - defaults to heavyweight ones if the C runtime does not provide lightweight ones.
+Version: 0.4
+Cflags: 
+Libs: 

@@ -1,0 +1,10 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/0a2574d59681d2d594a5847ba3f728f6
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.4.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

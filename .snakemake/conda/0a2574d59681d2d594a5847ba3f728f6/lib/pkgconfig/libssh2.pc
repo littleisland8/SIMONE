@@ -1,0 +1,17 @@
+###########################################################################
+# libssh2 installation details
+###########################################################################
+
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/0a2574d59681d2d594a5847ba3f728f6
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libssh2
+URL: https://www.libssh2.org/
+Description: The SSH library
+Version: 1.8.0
+Requires.private: libssl,libcrypto
+Libs: -L${libdir} -lssh2 
+Libs.private: 
+Cflags: -I${includedir}

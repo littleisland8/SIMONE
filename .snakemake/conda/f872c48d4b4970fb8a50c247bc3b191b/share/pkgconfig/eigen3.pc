@@ -1,0 +1,6 @@
+Name: Eigen3
+Description: A C++ template library for linear algebra: vectors, matrices, and related algorithms
+Requires:
+Version: 3.2.6
+Libs:
+Cflags: -I/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/include/eigen3

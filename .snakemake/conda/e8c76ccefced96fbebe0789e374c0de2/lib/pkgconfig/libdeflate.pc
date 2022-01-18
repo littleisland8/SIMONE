@@ -1,0 +1,10 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2
+exec_prefix=${prefix}
+includedir=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2/include
+libdir=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/e8c76ccefced96fbebe0789e374c0de2/lib
+
+Name: libdeflate
+Description: Fast implementation of DEFLATE, zlib, and gzip
+Version: 1.9
+Libs: -L${libdir} -ldeflate
+Cflags: -I${includedir}

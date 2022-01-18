@@ -1,0 +1,249 @@
+{
+  "build": "r41hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=4.1,<4.2.0a0",
+    "r-colorspace",
+    "r-ggplot2",
+    "r-patchwork",
+    "r-scales"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/r-complexupset-1.3.3-r41hc72bb7e_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ComplexUpset/CITATION",
+    "lib/R/library/ComplexUpset/DESCRIPTION",
+    "lib/R/library/ComplexUpset/INDEX",
+    "lib/R/library/ComplexUpset/LICENSE",
+    "lib/R/library/ComplexUpset/Meta/Rd.rds",
+    "lib/R/library/ComplexUpset/Meta/features.rds",
+    "lib/R/library/ComplexUpset/Meta/hsearch.rds",
+    "lib/R/library/ComplexUpset/Meta/links.rds",
+    "lib/R/library/ComplexUpset/Meta/nsInfo.rds",
+    "lib/R/library/ComplexUpset/Meta/package.rds",
+    "lib/R/library/ComplexUpset/Meta/vignette.rds",
+    "lib/R/library/ComplexUpset/NAMESPACE",
+    "lib/R/library/ComplexUpset/R/ComplexUpset",
+    "lib/R/library/ComplexUpset/R/ComplexUpset.rdb",
+    "lib/R/library/ComplexUpset/R/ComplexUpset.rdx",
+    "lib/R/library/ComplexUpset/WORDLIST",
+    "lib/R/library/ComplexUpset/doc/Examples_R.Rmd",
+    "lib/R/library/ComplexUpset/doc/Examples_R.html",
+    "lib/R/library/ComplexUpset/doc/index.html",
+    "lib/R/library/ComplexUpset/help/AnIndex",
+    "lib/R/library/ComplexUpset/help/ComplexUpset.rdb",
+    "lib/R/library/ComplexUpset/help/ComplexUpset.rdx",
+    "lib/R/library/ComplexUpset/help/aliases.rds",
+    "lib/R/library/ComplexUpset/help/paths.rds",
+    "lib/R/library/ComplexUpset/html/00Index.html",
+    "lib/R/library/ComplexUpset/html/R.css"
+  ],
+  "fn": "r-complexupset-1.3.3-r41hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/r-complexupset-1.3.3-r41hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "5c58321b8beb33318a9d29b8934c0864",
+  "name": "r-complexupset",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/r-complexupset-1.3.3-r41hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ComplexUpset/CITATION",
+        "path_type": "hardlink",
+        "sha256": "0eeb3cd83d5346844ed643a49785ed02d8e99bc8765bcb73f36b705ca6be3aa3",
+        "sha256_in_prefix": "0eeb3cd83d5346844ed643a49785ed02d8e99bc8765bcb73f36b705ca6be3aa3",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b3a524b3db2db6f8f66a43746ebd4bad43baaae07d40dab089925b495f58ce44",
+        "sha256_in_prefix": "b3a524b3db2db6f8f66a43746ebd4bad43baaae07d40dab089925b495f58ce44",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/INDEX",
+        "path_type": "hardlink",
+        "sha256": "51d318c4b1578d650957d660f6867aaf8ba75d0fab26fc036609de3c3418c585",
+        "sha256_in_prefix": "51d318c4b1578d650957d660f6867aaf8ba75d0fab26fc036609de3c3418c585",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "42a62f49db1b84ad7be579783092b15f00ffda73fd7e779b4b42899930d6bbd6",
+        "sha256_in_prefix": "42a62f49db1b84ad7be579783092b15f00ffda73fd7e779b4b42899930d6bbd6",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2c9ca0ee9a8672fff0da0a1f7d20d12ba3f2ef6e777ffcedcfd347414b4d79be",
+        "sha256_in_prefix": "2c9ca0ee9a8672fff0da0a1f7d20d12ba3f2ef6e777ffcedcfd347414b4d79be",
+        "size_in_bytes": 1204
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "sha256_in_prefix": "51d50d1afdf7fa236c2e547a1cac49aa6f6cee803f935a626cac903fa66f4373",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "50216a7bfb547b15091c33f6d659b16c646a13a2c83f41335929eae7507315a7",
+        "sha256_in_prefix": "50216a7bfb547b15091c33f6d659b16c646a13a2c83f41335929eae7507315a7",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ea028eda847707cdc726648174946c527f28bf499fe8443765e777788a3c1165",
+        "sha256_in_prefix": "ea028eda847707cdc726648174946c527f28bf499fe8443765e777788a3c1165",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "37dc30d2bbcd0d7e2b866be4206695c4a39e29f531201989e488908803cd445e",
+        "sha256_in_prefix": "37dc30d2bbcd0d7e2b866be4206695c4a39e29f531201989e488908803cd445e",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "3d7c874c8dab182f635f32c4cafcfe3999b12f88aebad8dbffc2d6358c3c67e6",
+        "sha256_in_prefix": "3d7c874c8dab182f635f32c4cafcfe3999b12f88aebad8dbffc2d6358c3c67e6",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "73ee07ee07d13bc4f3dd3eeb6bfbccf95dae34ef959570a028b0c57f98e1afc8",
+        "sha256_in_prefix": "73ee07ee07d13bc4f3dd3eeb6bfbccf95dae34ef959570a028b0c57f98e1afc8",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "06259a3a31343819d0dad093b0620bb1957b5e648703c3ee8cdffb1bf4c30edd",
+        "sha256_in_prefix": "06259a3a31343819d0dad093b0620bb1957b5e648703c3ee8cdffb1bf4c30edd",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/R/ComplexUpset",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/R/ComplexUpset.rdb",
+        "path_type": "hardlink",
+        "sha256": "fdc43edd9ab6324906a60dac48843da1acbfdefc5f9b160458dbab16745a75e5",
+        "sha256_in_prefix": "fdc43edd9ab6324906a60dac48843da1acbfdefc5f9b160458dbab16745a75e5",
+        "size_in_bytes": 119661
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/R/ComplexUpset.rdx",
+        "path_type": "hardlink",
+        "sha256": "54b7be339291705e42af632572d7120f35d522c9b10af354b1921dc961507fdf",
+        "sha256_in_prefix": "54b7be339291705e42af632572d7120f35d522c9b10af354b1921dc961507fdf",
+        "size_in_bytes": 1493
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "47815bc97b5692e3bc7dc806e2b2f44cdb7c03c5bd10b1c74d39103972cae183",
+        "sha256_in_prefix": "47815bc97b5692e3bc7dc806e2b2f44cdb7c03c5bd10b1c74d39103972cae183",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/doc/Examples_R.Rmd",
+        "path_type": "hardlink",
+        "sha256": "e0d263b2d82a6cc6a96fcb425611a8dd70355c68ca695bea0d02f4149cef57ea",
+        "sha256_in_prefix": "e0d263b2d82a6cc6a96fcb425611a8dd70355c68ca695bea0d02f4149cef57ea",
+        "size_in_bytes": 53148
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/doc/Examples_R.html",
+        "path_type": "hardlink",
+        "sha256": "45dc0205bdcb95b7d4142b7d53da97a83264536b3e88c44db697c6cd3402a4d2",
+        "sha256_in_prefix": "45dc0205bdcb95b7d4142b7d53da97a83264536b3e88c44db697c6cd3402a4d2",
+        "size_in_bytes": 3813555
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "6a12318e33e787a23fc9ca088a2b2415b1dda9d239688840980b6080c5cabf12",
+        "sha256_in_prefix": "6a12318e33e787a23fc9ca088a2b2415b1dda9d239688840980b6080c5cabf12",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b3ad0fcc0b8619259d118d55da7517ea5e81699274071aa0fc724c76808984e1",
+        "sha256_in_prefix": "b3ad0fcc0b8619259d118d55da7517ea5e81699274071aa0fc724c76808984e1",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/help/ComplexUpset.rdb",
+        "path_type": "hardlink",
+        "sha256": "00c619119ec0b77ae016e27f8f707eefccdf228e9ad57dfd4f4828b220c1a8bf",
+        "sha256_in_prefix": "00c619119ec0b77ae016e27f8f707eefccdf228e9ad57dfd4f4828b220c1a8bf",
+        "size_in_bytes": 61595
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/help/ComplexUpset.rdx",
+        "path_type": "hardlink",
+        "sha256": "26d9463df6c9ad34fb201d55cb3b84390e3cd237cdfd82f608bae645184ebea0",
+        "sha256_in_prefix": "26d9463df6c9ad34fb201d55cb3b84390e3cd237cdfd82f608bae645184ebea0",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "00937b50388f2dd09f6ab82547fb776c1afba83a3b7c1247b943ea90b46ad2a0",
+        "sha256_in_prefix": "00937b50388f2dd09f6ab82547fb776c1afba83a3b7c1247b943ea90b46ad2a0",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "fafe772918e797970771b4a8a6f776ab2d93af30b91fa43f7ac4b31e555c8a35",
+        "sha256_in_prefix": "fafe772918e797970771b4a8a6f776ab2d93af30b91fa43f7ac4b31e555c8a35",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "dc42e809e7c2b41f45416b42b4a6d82aaf5e75db28a0b168659a6d2d89188ffc",
+        "sha256_in_prefix": "dc42e809e7c2b41f45416b42b4a6d82aaf5e75db28a0b168659a6d2d89188ffc",
+        "size_in_bytes": 5033
+      },
+      {
+        "_path": "lib/R/library/ComplexUpset/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-complexupset",
+  "sha256": "d84bc9a534041836571f02f6785f7761e9ce41d8da0cc99372f0e0a4b5862e7e",
+  "size": 2761383,
+  "subdir": "noarch",
+  "timestamp": 1639243764000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-complexupset-1.3.3-r41hc72bb7e_0.tar.bz2",
+  "version": "1.3.3"
+}

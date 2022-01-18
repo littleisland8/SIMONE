@@ -1,0 +1,205 @@
+{
+  "build": "r41h03ef668_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=4.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/home/simone/miniconda3/pkgs/r-polyclip-1.10_0-r41h03ef668_2",
+  "features": "",
+  "files": [
+    "lib/R/library/polyclip/DESCRIPTION",
+    "lib/R/library/polyclip/INDEX",
+    "lib/R/library/polyclip/Meta/Rd.rds",
+    "lib/R/library/polyclip/Meta/features.rds",
+    "lib/R/library/polyclip/Meta/hsearch.rds",
+    "lib/R/library/polyclip/Meta/links.rds",
+    "lib/R/library/polyclip/Meta/nsInfo.rds",
+    "lib/R/library/polyclip/Meta/package.rds",
+    "lib/R/library/polyclip/NAMESPACE",
+    "lib/R/library/polyclip/NEWS",
+    "lib/R/library/polyclip/R/polyclip",
+    "lib/R/library/polyclip/R/polyclip.rdb",
+    "lib/R/library/polyclip/R/polyclip.rdx",
+    "lib/R/library/polyclip/help/AnIndex",
+    "lib/R/library/polyclip/help/aliases.rds",
+    "lib/R/library/polyclip/help/paths.rds",
+    "lib/R/library/polyclip/help/polyclip.rdb",
+    "lib/R/library/polyclip/help/polyclip.rdx",
+    "lib/R/library/polyclip/html/00Index.html",
+    "lib/R/library/polyclip/html/R.css",
+    "lib/R/library/polyclip/libs/polyclip.so"
+  ],
+  "fn": "r-polyclip-1.10_0-r41h03ef668_2.tar.bz2",
+  "license": "BSL",
+  "link": {
+    "source": "/home/simone/miniconda3/pkgs/r-polyclip-1.10_0-r41h03ef668_2",
+    "type": 1
+  },
+  "md5": "7bf7c3be887214e9da8bfb11009ec0ad",
+  "name": "r-polyclip",
+  "package_tarball_full_path": "/home/simone/miniconda3/pkgs/r-polyclip-1.10_0-r41h03ef668_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/polyclip/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d520d49395103d27cf958e415eb9313da90ddf2ffacb9da0d4eeb6998b5ae0ad",
+        "sha256_in_prefix": "d520d49395103d27cf958e415eb9313da90ddf2ffacb9da0d4eeb6998b5ae0ad",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "lib/R/library/polyclip/INDEX",
+        "path_type": "hardlink",
+        "sha256": "e4cd7fe110b71dffb79117da5f335d311c3c3aaa8be3ada802920af89a00b29f",
+        "sha256_in_prefix": "e4cd7fe110b71dffb79117da5f335d311c3c3aaa8be3ada802920af89a00b29f",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/polyclip/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "6793bae166163e772b1ee543a32fb907a66dfa02e4bb5345d9384787a3154adc",
+        "sha256_in_prefix": "6793bae166163e772b1ee543a32fb907a66dfa02e4bb5345d9384787a3154adc",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/R/library/polyclip/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "sha256_in_prefix": "b84ca42483e79a917d4c89f07a99625c472773b7d3ba686c276da9b5514abeac",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/polyclip/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "9cef13cc37af5709faf20680b96eb583544d244e23758d71270fd87ab3188734",
+        "sha256_in_prefix": "9cef13cc37af5709faf20680b96eb583544d244e23758d71270fd87ab3188734",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "lib/R/library/polyclip/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "c38d2133bf3c5d8a63d6a14e43bd592911ca8c88040b69b0f5548acf38587eb0",
+        "sha256_in_prefix": "c38d2133bf3c5d8a63d6a14e43bd592911ca8c88040b69b0f5548acf38587eb0",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/R/library/polyclip/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "453c0146974e236951e0ab1f2684176cfad840acdf1c58775c6469b4264548e8",
+        "sha256_in_prefix": "453c0146974e236951e0ab1f2684176cfad840acdf1c58775c6469b4264548e8",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/polyclip/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d46a1b3018a512b5ee62ad6e77725042818da9c47fddceee8aaf1ac1c61f3a21",
+        "sha256_in_prefix": "d46a1b3018a512b5ee62ad6e77725042818da9c47fddceee8aaf1ac1c61f3a21",
+        "size_in_bytes": 1259
+      },
+      {
+        "_path": "lib/R/library/polyclip/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "d52e1761140f6dd56932989f6970a2e387564f17c5c4464bea8283648eb85912",
+        "sha256_in_prefix": "d52e1761140f6dd56932989f6970a2e387564f17c5c4464bea8283648eb85912",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/R/library/polyclip/NEWS",
+        "path_type": "hardlink",
+        "sha256": "a4e6945eee552e4a4a56a75035fe997d4d263dd50590a63aa28900513528f466",
+        "sha256_in_prefix": "a4e6945eee552e4a4a56a75035fe997d4d263dd50590a63aa28900513528f466",
+        "size_in_bytes": 2368
+      },
+      {
+        "_path": "lib/R/library/polyclip/R/polyclip",
+        "path_type": "hardlink",
+        "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "sha256_in_prefix": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/polyclip/R/polyclip.rdb",
+        "path_type": "hardlink",
+        "sha256": "9f77e3dd1d086ccfdde22e303d91eca1ef2c89f3171fe765f6a506ab4d1c9136",
+        "sha256_in_prefix": "9f77e3dd1d086ccfdde22e303d91eca1ef2c89f3171fe765f6a506ab4d1c9136",
+        "size_in_bytes": 17317
+      },
+      {
+        "_path": "lib/R/library/polyclip/R/polyclip.rdx",
+        "path_type": "hardlink",
+        "sha256": "8403d856588547ed79da86a4b4fc0c7378a36c119560030aefb08a8124c206f1",
+        "sha256_in_prefix": "8403d856588547ed79da86a4b4fc0c7378a36c119560030aefb08a8124c206f1",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "lib/R/library/polyclip/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "a58c5cd269841bafe83cb6e5385d98be8f214f20900e4191ac6f3490f62c8950",
+        "sha256_in_prefix": "a58c5cd269841bafe83cb6e5385d98be8f214f20900e4191ac6f3490f62c8950",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/R/library/polyclip/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4cb8ac7f94e3760887ba54911ae303f1ad8dd926ee569ca7127baa70df1812f1",
+        "sha256_in_prefix": "4cb8ac7f94e3760887ba54911ae303f1ad8dd926ee569ca7127baa70df1812f1",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/R/library/polyclip/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "abe012238f5af1036abaff9f232cfff4fc608cf292b8927ac4a633a106ce8a9e",
+        "sha256_in_prefix": "abe012238f5af1036abaff9f232cfff4fc608cf292b8927ac4a633a106ce8a9e",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/R/library/polyclip/help/polyclip.rdb",
+        "path_type": "hardlink",
+        "sha256": "f595e7f152fbcb5318f65f4b20098a6b97409c5939197c4b74dabc713e61a963",
+        "sha256_in_prefix": "f595e7f152fbcb5318f65f4b20098a6b97409c5939197c4b74dabc713e61a963",
+        "size_in_bytes": 34167
+      },
+      {
+        "_path": "lib/R/library/polyclip/help/polyclip.rdx",
+        "path_type": "hardlink",
+        "sha256": "2aed700382f0c87d741e04a95a99f3355f107878ed7ab4c8de88e2dd450b859e",
+        "sha256_in_prefix": "2aed700382f0c87d741e04a95a99f3355f107878ed7ab4c8de88e2dd450b859e",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/R/library/polyclip/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "14de54e252b85ed381a80f536dac55cceb736c18f663872c263c7cb9520dbb10",
+        "sha256_in_prefix": "14de54e252b85ed381a80f536dac55cceb736c18f663872c263c7cb9520dbb10",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "lib/R/library/polyclip/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/polyclip/libs/polyclip.so",
+        "path_type": "hardlink",
+        "sha256": "05d5f89a6439d6bc8f3daf0fcda951f3ae58e8f1801fcae088ed6d35e08b86bc",
+        "sha256_in_prefix": "05d5f89a6439d6bc8f3daf0fcda951f3ae58e8f1801fcae088ed6d35e08b86bc",
+        "size_in_bytes": 162160
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b618abfc1fbf7a4f242f6502eaa794f487c5a6e45704612c550b13a6f07a443e",
+  "size": 133061,
+  "subdir": "linux-64",
+  "timestamp": 1621627796000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-polyclip-1.10_0-r41h03ef668_2.tar.bz2",
+  "version": "1.10_0"
+}

@@ -1,0 +1,43 @@
+The flag 'directory' used in rule depth_plot is only valid for outputs, not inputs.
+The flag 'directory' used in rule meth is only valid for outputs, not inputs.
+Building DAG of jobs...
+Creating conda environment workflow/envs/pycometh.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/simone/mnt/part4/keygene2/tn/SIMONE/workflow/rules/../envs/pycometh.yaml:
+/home/simone/miniconda3/lib/python3.8/site-packages/ruamel_yaml/constructor.py:283: DuplicateKeyFutureWarning: while constructing a mapping
+  in "<unicode string>", line 1, column 1:
+    channels:
+    ^ (line: 1)
+found duplicate key "channels" with value "[]" (original value: "[]")
+  in "<unicode string>", line 6, column 1:
+    channels:
+    ^ (line: 6)
+
+To suppress this check see:
+    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys
+
+Duplicate keys will become an error in future releases, and are errors
+by default when using the new API.
+
+  warnings.warn(DuplicateKeyFutureWarning(*args))
+/home/simone/miniconda3/lib/python3.8/site-packages/ruamel_yaml/constructor.py:283: DuplicateKeyFutureWarning: while constructing a mapping
+  in "<unicode string>", line 1, column 1:
+    channels:
+    ^ (line: 1)
+found duplicate key "dependencies" with value "[]" (original value: "[]")
+  in "<unicode string>", line 8, column 1:
+    dependencies:
+    ^ (line: 8)
+
+To suppress this check see:
+    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys
+
+Duplicate keys will become an error in future releases, and are errors
+by default when using the new API.
+
+  warnings.warn(DuplicateKeyFutureWarning(*args))
+Encountered problems while solving:
+  - nothing provides pyfaidx >=0.5.8 needed by pycometh-0.4.25-0
+
+

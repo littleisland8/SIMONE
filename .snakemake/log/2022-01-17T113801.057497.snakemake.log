@@ -1,0 +1,90 @@
+The flag 'directory' used in rule depth_plot is only valid for outputs, not inputs.
+The flag 'directory' used in rule meth is only valid for outputs, not inputs.
+Building DAG of jobs...
+Creating conda environment workflow/envs/pycometh.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/simone/mnt/part4/keygene2/tn/SIMONE/workflow/rules/../envs/pycometh.yaml:
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/home/simone/miniconda3/lib/python3.8/site-packages/conda/exceptions.py", line 1080, in __call__
+        return func(*args, **kwargs)
+      File "/home/simone/miniconda3/lib/python3.8/site-packages/conda_env/cli/main.py", line 80, in do_call
+        exit_code = getattr(module, func_name)(args, parser)
+      File "/home/simone/miniconda3/lib/python3.8/site-packages/conda_env/cli/main_create.py", line 141, in execute
+        result[installer_type] = installer.install(prefix, pkg_specs, args, env)
+      File "/home/simone/miniconda3/lib/python3.8/site-packages/mamba/mamba_env.py", line 42, in mamba_install
+        index = load_channels(pool, channel_urls, repos, prepend=False)
+      File "/home/simone/miniconda3/lib/python3.8/site-packages/mamba/utils.py", line 123, in load_channels
+        index = get_index(
+      File "/home/simone/miniconda3/lib/python3.8/site-packages/mamba/utils.py", line 104, in get_index
+        is_downloaded = dlist.download(True)
+    RuntimeError: Multi-download failed.
+
+`$ /home/simone/miniconda3/condabin/mamba create --quiet --file /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/4b8a5bf3943d8a8be22273d9bfb546a8.yaml --prefix /home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/4b8a5bf3943d8a8be22273d9bfb546a8`
+
+  environment variables:
+                 CIO_TEST=<not set>
+  CONDA_AUTO_UPDATE_CONDA=false
+        CONDA_DEFAULT_ENV=snakemake
+                CONDA_EXE=/home/simone/miniconda3/bin/conda
+             CONDA_PREFIX=/home/simone/miniconda3/envs/snakemake
+           CONDA_PREFIX_1=/home/simone/miniconda3
+    CONDA_PROMPT_MODIFIER=(snakemake)
+         CONDA_PYTHON_EXE=/home/simone/miniconda3/bin/python
+               CONDA_ROOT=/home/simone/miniconda3
+              CONDA_SHLVL=2
+           CURL_CA_BUNDLE=<not set>
+            DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+           MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+                     PATH=/home/simone/miniconda3/envs/snakemake/bin:/home/simone/miniconda3/con
+                          dabin:/home/simone/programs/GEM-binaries-Linux-x86_64-core_i3-20130406
+                          -045632/bin:/home/simone/programs/LRA-1.2.0:/home/simone/programs/mini
+                          map2-2.22_x64-linux:/home/simone/programs/STAR/source:/home/simone/pro
+                          grams/pindel:/home/simone/programs/bamCleave_dir:/home/simone/programs
+                          /mosdepth-0.3.1:/home/simone/programs/Sniffles-master/bin/sniffles-cor
+                          e-1.0.12:/home/simone/programs/SURVIVOR/Debug:/home/simone/programs/na
+                          nopolish:/home/simone/programs/gfatools:/home/simone/programs/minigrap
+                          h:/home/simone/.cargo/bin:/home/simone/.local/bin:/usr/local/sbin:/usr
+                          /local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/
+                          snap/bin
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+               WINDOWPATH=2
+
+     active environment : snakemake
+    active env location : /home/simone/miniconda3/envs/snakemake
+            shell level : 2
+       user config file : /home/simone/.condarc
+ populated config files : 
+          conda version : 4.11.0
+    conda-build version : not installed
+         python version : 3.8.1.final.0
+       virtual packages : __cuda=11.1=0
+                          __linux=5.4.0=0
+                          __glibc=2.27=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/simone/miniconda3  (writable)
+      conda av data dir : /home/simone/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/simone/miniconda3/pkgs
+                          /home/simone/.conda/pkgs
+       envs directories : /home/simone/miniconda3/envs
+                          /home/simone/.conda/envs
+               platform : linux-64
+             user-agent : conda/4.11.0 requests/2.26.0 CPython/3.8.1 Linux/5.4.0-94-generic ubuntu/18.04.6 glibc/2.27
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+

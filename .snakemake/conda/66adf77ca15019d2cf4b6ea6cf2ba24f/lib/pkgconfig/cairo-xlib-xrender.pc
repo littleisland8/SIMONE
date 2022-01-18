@@ -1,0 +1,12 @@
+prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-xlib-xrender
+Description: Xlib Xrender surface backend for cairo graphics library
+Version: 1.16.0
+
+Requires: cairo-xlib xrender >= 0.6
+Libs:  
+Cflags: -I${includedir}/cairo 

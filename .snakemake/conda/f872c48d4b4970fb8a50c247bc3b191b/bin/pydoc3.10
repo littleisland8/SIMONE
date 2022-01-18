@@ -1,0 +1,5 @@
+#!/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
