@@ -1,5 +1,0 @@
-channels:
- - aleg,bioconda
-dependencies:
- - pycometh=0.4.25
- - pyfaidx=0.5.8

@@ -1,9 +1,0 @@
-prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/66adf77ca15019d2cf4b6ea6cf2ba24f
-libdir=${prefix}/lib
-includedir=${prefix}/include
-
-Name: Pango OT
-Description: OpenType font support for Pango (deprecated)
-Version: 1.50.3
-Requires: pangoft2
-Cflags: -I${includedir}/pango-1.0

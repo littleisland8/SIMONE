@@ -1,4 +1,0 @@
-channels:
- - bioconda
-dependencies:
- - nanopolish=0.13.2

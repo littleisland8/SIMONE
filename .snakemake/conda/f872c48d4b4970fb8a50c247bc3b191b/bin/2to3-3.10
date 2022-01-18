@@ -1,5 +1,0 @@
-#!/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/f872c48d4b4970fb8a50c247bc3b191b/bin/python3.10
-import sys
-from lib2to3.main import main
-
-sys.exit(main("lib2to3.fixes"))

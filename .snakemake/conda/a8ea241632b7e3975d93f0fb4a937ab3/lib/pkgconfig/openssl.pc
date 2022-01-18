@@ -1,9 +1,0 @@
-prefix=/home/simone/mnt/part4/keygene2/tn/SIMONE/.snakemake/conda/a8ea241632b7e3975d93f0fb4a937ab3
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
-
-Name: OpenSSL
-Description: Secure Sockets Layer and cryptography libraries and tools
-Version: 1.1.1m
-Requires: libssl libcrypto

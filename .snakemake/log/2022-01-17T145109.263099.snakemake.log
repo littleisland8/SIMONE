@@ -1,6 +1,0 @@
-The flag 'directory' used in rule depth_plot is only valid for outputs, not inputs.
-The flag 'directory' used in rule meth is only valid for outputs, not inputs.
-Building DAG of jobs...
-MissingInputException in line 1 of /home/simone/mnt/part4/keygene2/tn/SIMONE/workflow/rules/align.smk:
-Missing input files for rule minimap2_align:
-data/1G.pass.fastq.gz

@@ -8,8 +8,10 @@ This pipeline performs the alignment to the human reference genome (GRCh38) by :
 The SVs identification is performed using:
 - [sniffles](https://github.com/fritzsedlazeck/Sniffles) (1.0.12)
 - [cuteSV](https://github.com/tjiangHIT/cuteSV) (1.0.12)
+
 The methylation calling is performed using :
 - [nanopolish](https://github.com/jts/nanopolish) (0.13.2)
+
 This pipeline usign [pycoMeth](https://github.com/snajder-r/pycoMeth) (0.4.25) to compare the methylation values for each intervals (pycoMeth Interval_Aggregate) between normal and tumor samples by a Mann_Withney test to evaluate if the positions are significantly different. pValues are adjusted using the Benjamini & Hochberg procedure.
 
 
