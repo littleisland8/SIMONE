@@ -9,7 +9,7 @@ rule mosdepth_depth:
 	conda: "../envs/mosdepth.yaml"
 	params:
 		prefix="alignments/{sample}.{aligner}"
-	threads: 20
+	threads: config["threads"]
 	shell:
 		"mosdepth -n --fast-mode -t {threads} --by 500 {params.prefix} {input.bam} 2> {log}"
 
