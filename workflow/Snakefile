@@ -19,13 +19,7 @@ rule svcall:
         expand(f"results/{{sample}}.{{aligner}}.{{tool}}.srt.pass.vcf", sample=config["samples"].values(),aligner=config["aligners"].values(), tool=config["tools"].values()),
         expand(f"results/{{sample}}.{{aligner}}.hc.vcf", sample=config["samples"].values(), aligner=config["aligners"].values()),
 	expand(f"results/somatic.{{aligner}}.vcf", aligner=config["aligners"].values()),
-	expand(f"results/3X/somatic.{{aligner}}.3x.vcf", aligner=config["aligners"].values()),
-        expand(f"results/5X/somatic.{{aligner}}.5x.vcf", aligner=config["aligners"].values()),
-        expand(f"results/10X/somatic.{{aligner}}.10x.vcf", aligner=config["aligners"].values()),
-        f"results/upset.pdf",
-        f"results/3X/upset.pdf",
-        f"results/5X/upset.pdf",
-        f"results/10X/upset.pdf"
+        f"results/upset.pdf"
 
 rule meth:
     input:
