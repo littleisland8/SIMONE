@@ -57,9 +57,11 @@ rule make_window:
 		"../envs/bedtools.yaml"
 	log:
 		"logs/make_interval.log"
+	params:
+		bin=config["bin"]
 	shell:
 		"""
-		bedtools makewindows -b <(cut -f1,2 {input} | head -24 |awk 'OFS=FS="\t"''{{print $1, "1", $2}}') -w 100000 | sortBed > {output} 2>{log}
+		bedtools makewindows -b <(cut -f1,2 {input} | head -24 |awk 'OFS=FS="\t"''{{print $1, "1", $2}}') -w {params.bin} | sortBed > {output} 2>{log}
 		"""	
 
 rule parse_meth_freq:
@@ -74,7 +76,6 @@ rule parse_meth_freq:
 	log:
 		"logs/{sample}.nanopolish_freq.parse.log"
 	params:
-		#intervals="results/intervals.bed",
 		name="{sample}"
 	shell:
 		"""

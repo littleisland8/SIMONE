@@ -12,6 +12,8 @@ The SVs identification is performed using:
 The methylation calling is performed using :
 - [nanopolish](https://github.com/jts/nanopolish) (0.13.2)
 
+The methylation analysis is performed used 100000 bp bins. This value could be changed in the config.yaml. 
+
 This pipeline usign [pycoMeth](https://github.com/snajder-r/pycoMeth) (0.4.25) to compare the methylation values for each intervals (pycoMeth Interval_Aggregate) between normal and tumor samples by a Mann_Withney test to evaluate if the positions are significantly different. pValues are adjusted using the Benjamini & Hochberg procedure.
 
 
