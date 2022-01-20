@@ -1,4 +1,4 @@
-# SIMONE (Structural varIants and Methylation usign lONg rEads)
+# SIMONE (Structural varIants and Methylation using lONg rEads)
 
 Snakemake pipeline for investigating structural variation and methylation using long-reads and tumor-control samples
 
