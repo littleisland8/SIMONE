@@ -28,4 +28,5 @@ rule meth:
         directory("results/pycoMeth"),
 	expand(f"results/{{sample}}.methfreq.tsv", sample=config["samples"].values()),
 	f"results/intervals.bed",
-	expand(f"results/{{sample}}.methfreq.parsed.bed", sample=config["samples"].values())
+	expand(f"results/{{sample}}.methfreq.parsed.bed", sample=config["samples"].values()),
+	expand(f"results/{{sample}}.methplot.pdf", sample=config["samples"].values())

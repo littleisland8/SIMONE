@@ -133,3 +133,18 @@ rule pycometh_Meth_Comp:
 		"""
 		mkdir -p {params.outdir} && for c in {params.coups}; do g=$(echo ${{c}} |cut -d "_" -f 2) && s=$(echo ${{c}} |cut -d "_" -f 1) && pycoMeth Meth_Comp -s ${{g}} ${{s}} -i results/${{g}}.interval.tsv results/${{s}}.interval.tsv -f {params.ref} -b results/${{g}}_${{s}}.methcomp.bed9 -t results/${{g}}_${{s}}.methcomp.tmp.tsv && head -1 results/${{g}}_${{s}}.methcomp.tmp.tsv > results/header.txt && grep -w -f {params.include} results/${{g}}_${{s}}.methcomp.tmp.tsv > results/${{g}}_${{s}}.tmp.tsv && cat results/header.txt results/${{g}}_${{s}}.tmp.tsv > results/${{g}}_${{s}}.methcomp.tsv && rm results/${{g}}_${{s}}.methcomp.tmp.tsv results/${{g}}_${{s}}.tmp.tsv results/header.txt && pycoMeth Comp_Report -i results/${{g}}_${{s}}.methcomp.tsv -f {params.ref} -g {params.gff3} -o {params.outdir}/${{g}}_${{s}} 2>>{log}; done 
 		"""
+rule plot_meth:
+        input:
+                "results/{sample}.methfreq.parsed.bed"
+        output:
+                "results/{sample}.methplot.pdf"
+        threads:
+                config["threads"]
+        log:
+                "logs/{sample}.plotmeth.log"
+        conda:
+                "../envs/plot.yaml"
+        params:
+                script="workflow/scripts/plotmeth.R"
+        shell:
+                "Rscript {params.script} {input} {output}"

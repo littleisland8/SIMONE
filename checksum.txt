@@ -1,0 +1,14 @@
+#fastq checksum
+1G.pass.fastq.gz	a1844b0940a759d8cbb75d4074e496f9
+1S.pass.fastq.gz	2345abadf5947cbc9b868e40e67169de
+
+#fast5 checksum
+#1G
+data/fast5/1G/batch0.fast5	44633a1444e3e51f3cb26e33c6f9dc7d
+data/fast5/1G/batch1.fast5	4d9be86ea4847f94247be315b9775808
+data/fast5/1G/batch2.fast5	12c5cec9dd4b410f0918c55a441c95a7
+
+#1S
+data/fast5/1S/batch0.fast5	b74083694002b43d40bc78a128f8ac72
+data/fast5/1S/batch1.fast5	221c3325f392c235ef7405b1616ff9a0
+data/fast5/1S/batch2.fast5	c9e4973b11598f326261dfd14e0fe857	

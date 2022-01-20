@@ -1,23 +1,13 @@
-# SIMONE
-Structural varIants and Methylation usign lONg rEads
-Snakemake pipeline for investigating structural variation and methylation using long-reads comparing control and tumor samples
+# SIMONE (Structural varIants and Methylation usign lONg rEads)
+
+Snakemake pipeline for investigating structural variation and methylation using long-reads and tumor-control samples
 
 ## Description
-This pipeline performs the alignment to the human reference genome (GRCh38) by :
-[minimap2](https://github.com/lh3/minimap2) (2.17) 
-The SVs identification is performed using:
-- [sniffles](https://github.com/fritzsedlazeck/Sniffles) (1.0.12)
-- [cuteSV](https://github.com/tjiangHIT/cuteSV) (1.0.12)
 
-The methylation calling is performed using :
-- [nanopolish](https://github.com/jts/nanopolish) (0.13.2)
-
-The methylation analysis is performed used 100000 bp bins. This value could be changed in the config.yaml. 
-
-This pipeline usign [pycoMeth](https://github.com/snajder-r/pycoMeth) (0.4.25) to compare the methylation values for each intervals (pycoMeth Interval_Aggregate) between normal and tumor samples by a Mann_Withney test to evaluate if the positions are significantly different. pValues are adjusted using the Benjamini & Hochberg procedure.
-
+SIMONE uses [minimap2](https://github.com/lh3/minimap2) to align long reads to the human reference genome. SV identification is performed using [sniffles](https://github.com/fritzsedlazeck/Sniffles) and [cuteSV](https://github.com/tjiangHIT/cuteSV). Methylation frequencies are calculated using [nanopolish](https://github.com/jts/nanopolish). Regions with differential methylation (tumor vs control) are identified by means of [pycoMeth](https://github.com/snajder-r/pycoMeth).  
 
 ## Get Data
+
 To get the Oxford Nanopore PromethION ultra long reads: 
 
 ```bash
@@ -50,7 +40,7 @@ gdown https://drive.google.com/drive/folders/1kHrnQrGYfPFWFMpsOAOANdBUpVxeULDE -
 cd -
 
 ```
-The control and the tumor files are organized in 1G.pass.fastq.gz (control) and 1S.pass.fastq.gz (tumor) with the relative fast5 files  
+The control and the tumor files are 1G.pass.fastq.gz (control) and 1S.pass.fastq.gz (tumor) with correponding fast5 files.
 
 ## RUN
 To use nanopolish with conda env:
