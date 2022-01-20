@@ -19,7 +19,7 @@ then run:
 cd SIMONE
 mkdir -p data
 cd data
-# get GRCh38 reference (hg19 with decoys)
+# get GRCh38 reference (hg38 with decoys)
 wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
 #index the reference genome
 samtools faidx GRCh38_full_analysis_set_plus_decoy_hla.fa
